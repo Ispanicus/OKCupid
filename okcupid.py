@@ -32,7 +32,6 @@ def main():
                 for s in splt:
                     if not s.isdigit():
                         tmp_list.append(porter.stem(s))
-            #essay_list.append((data[classifier][i],[word for word in tmp_list if word]))
             essay_list.append((tmp_list, data["sex"][i]))
     
     featuresets = [(document_features(t), f) for (t, f) in essay_list if (t and f)]
