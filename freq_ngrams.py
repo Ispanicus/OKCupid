@@ -17,7 +17,7 @@ def freq_ngrams(essay_list):
         all_words = []
         all_bigrams = []
         all_trigrams = []
-        essays = [e for e in data[es][:half]]
+        essays = [e for e in data[es][1:half]]
         
         for i, essay in enumerate(essays):
             tmp = []

@@ -9,6 +9,11 @@ freq_words = pickle.load(infile)
 word_features = list(freq_words)[:1500]
 infile.close()
 
+infile = open("Data/essay_ngrams", 'rb')
+freq_words = pickle.load(infile)
+word_features = list(freq_words)[:1500]
+infile.close()
+
 def document_features(document):
     document_words = set(document)
     features = {}
