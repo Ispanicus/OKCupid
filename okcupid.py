@@ -4,10 +4,10 @@ import pandas as pd
 import pickle
 from nltk.stem.porter import PorterStemmer
 
-word_features = []
-with open("essay4_freq_words.txt") as file:
-    for word in file:
-        word_features.append(word)
+infile = open("Data/essay4_freq_words", 'rb')
+freq_words = pickle.load(infile)
+word_features = list(freq_words)[:1500]
+infile.close()
 
 def document_features(document):
     document_words = set(document)
