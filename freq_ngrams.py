@@ -1,6 +1,7 @@
 import nltk
 import pandas as pd
 from nltk.corpus import stopwords
+from nltk.probability import FreqDist
 from nltk.stem.porter import PorterStemmer
 import pickle
 
@@ -29,10 +30,10 @@ def freq_ngrams(essay_list):
                     for s in splt:
                         if not s.isdigit() and s not in stop_words:
                             tmp_list.append(s)
-                for i in range(len(tmp_list)-1):
-                    all_bigrams.append(" ".join((tmp_list[i],tmp_list[i+1])))
-                for i in range(len(tmp_list)-2):
-                    all_trigrams.append(" ".join((tmp_list[i],tmp_list[i+1],tmp_list[i+2])))
+                for j in range(len(tmp_list)-1):
+                    all_bigrams.append(" ".join((tmp_list[j],tmp_list[j+1])))
+                for k in range(len(tmp_list)-2):
+                    all_trigrams.append(" ".join((tmp_list[k],tmp_list[k+1],tmp_list[k+2])))
                 all_words.extend(tmp_list)
                 
         freq_words = nltk.FreqDist(w for w in all_words)

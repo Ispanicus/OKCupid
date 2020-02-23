@@ -4,48 +4,33 @@ import pandas as pd
 import pickle
 from nltk.stem.porter import PorterStemmer
 
-infile = open("Data/essay4_freq_words", 'rb')
-freq_words = pickle.load(infile)
-word_features = list(freq_words)[:1500]
+infile = open("Data/essay4_freq_bigrams", 'rb')
+freq_bigrams = pickle.load(infile)
+word_features = [w for (w, f) in freq_bigrams.most_common(1500)]
 infile.close()
 
 infile = open("Data/essay_ngrams", 'rb')
-freq_words = pickle.load(infile)
-word_features = list(freq_words)[:1500]
+ngram_tuple = pickle.load(infile)
+'''tuple with essay_unigrams, essay_bigrams and essay_trigrams
+to access unigrams, just ngram_tuple[0]["essay0"]'''
 infile.close()
 
 def document_features(document):
     document_words = set(document)
     features = {}
     for word in word_features:
-        features['contains({})'.format(word.strip())] = (word.strip() in document_words)
+        features['contains({})'.format(word)] = (word in document_words)
     return features
 
 def main():
-    data = pd.read_csv('cleanerstill.csv', sep=";")
-    porter = PorterStemmer()
-    essay4 = [f for f in data["essay4"][:30000]]
-    essay_list = []
-
-    for i, essay in enumerate(essay4):
-        tmp = []
-        tmp_list = []
-        if type(essay) != float:
-            tmp.extend([w for w in essay.split()])
-            for w in tmp:
-                splt = w.split("'")
-                for s in splt:
-                    if not s.isdigit():
-                        tmp_list.append(porter.stem(s))
-            essay_list.append((tmp_list, data["sex"][i]))
-    
-    featuresets = [(document_features(t), f) for (t, f) in essay_list if (t and f)]
+    bigram_4 = ngram_tuple[1]['essay4']
+    featuresets = [(document_features(t), class_dic["sex"]) for (t, class_dic) in bigram_4 if (t and class_dic["sex"] != 'nan')]
     length = len(featuresets)
     shuffle(featuresets)
     train_set, test_set = featuresets[length//2:], featuresets[:length//2]
     classifier = nltk.NaiveBayesClassifier.train(train_set)
     print(nltk.classify.accuracy(classifier, test_set))
-    classifier.show_most_informative_features(10)
+    classifier.show_most_informative_features(100)
 
 if __name__ == '__main__':
     main()

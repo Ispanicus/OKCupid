@@ -18,19 +18,18 @@ def freq_creator(essay_list):
     for es in essay_list:
         all_bigrams = []
         essays = [e for e in data[es][1:half]]
-        essay_bigram_list = []
-        essay_trigram_list = []
+        unigrams_list = []
+        bigrams_list = []
+        trigrams_list = []
         for i, essay in enumerate(essays):
             tmp = []
             tmp_list = []
-            unigrams_list = []
-            bigrams_list = []
-            trigrams_list = []
+            essay_bigram_list = []
+            essay_trigram_list = []            
             classifier_dictionary = {}
             for clas in classifiers:
                 if data[clas][i]:
                     classifier_dictionary[clas] = data[clas][i]
-                    
             if type(essay) != float:
                 tmp.extend([w for w in essay.split()])
                 for w in tmp:
@@ -38,10 +37,10 @@ def freq_creator(essay_list):
                     for s in splt:
                         if not s.isdigit():
                             tmp_list.append(porter.stem(s))
-                for i in range(len(tmp_list)-1):
-                    essay_bigram_list.append(" ".join((tmp_list[i],tmp_list[i+1])))
-                for i in range(len(tmp_list)-2):
-                    essay_trigram_list.append(" ".join((tmp_list[i],tmp_list[i+1],tmp_list[i+2])))
+                for j in range(len(tmp_list)-1):
+                    essay_bigram_list.append(" ".join((tmp_list[j],tmp_list[j+1])))
+                for k in range(len(tmp_list)-2):
+                    essay_trigram_list.append(" ".join((tmp_list[k],tmp_list[k+1],tmp_list[k+2])))
                 unigrams_list.append((tmp_list, classifier_dictionary))
                 bigrams_list.append((essay_bigram_list, classifier_dictionary))
                 trigrams_list.append((essay_trigram_list, classifier_dictionary))
