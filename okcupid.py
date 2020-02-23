@@ -1,12 +1,22 @@
-from random import shuffle
 import nltk
 import pandas as pd
 import pickle
+import sys
 from nltk.stem.porter import PorterStemmer
+from random import shuffle
 
-infile = open("Data/essay4_freq_bigrams", 'rb')
-freq_bigrams = pickle.load(infile)
-word_features = [w for (w, f) in freq_bigrams.most_common(1500)]
+ngram = int(sys.argv[1])
+essay = sys.argv[2]
+classifier = sys.argv[3]
+
+if ngram == 0:
+    infile = open(f"Data/{essay}_freq_words", 'rb')
+elif ngram == 1:
+    infile = open(f"Data/{essay}_freq_bigrams", 'rb')
+else:
+    infile = open(f"Data/{essay}_freq_trigrams", 'rb')
+freq_ngrams = pickle.load(infile)
+word_features = [w for (w, f) in freq_ngrams.most_common(2000)]
 infile.close()
 
 infile = open("Data/essay_ngrams", 'rb')
@@ -22,15 +32,21 @@ def document_features(document):
         features['contains({})'.format(word)] = (word in document_words)
     return features
 
-def main():
-    bigram_4 = ngram_tuple[1]['essay4']
-    featuresets = [(document_features(t), class_dic["sex"]) for (t, class_dic) in bigram_4 if (t and class_dic["sex"] != 'nan')]
+def bayes(ngram, essay, classifier):
+    '''0 = unigram
+       1 = bigram
+       2 = trigram
+    '''
+    featuresets = [(document_features(t), class_dic[classifier]) for (t, class_dic) in ngram_tuple[ngram][essay] if (t and class_dic[classifier])]
     length = len(featuresets)
-    shuffle(featuresets)
+    shuffle(featuresets)    
     train_set, test_set = featuresets[length//2:], featuresets[:length//2]
     classifier = nltk.NaiveBayesClassifier.train(train_set)
     print(nltk.classify.accuracy(classifier, test_set))
-    classifier.show_most_informative_features(100)
+    print(classifier.show_most_informative_features(100))
+
+def main():
+    bayes(ngram, essay, classifier)
 
 if __name__ == '__main__':
     main()

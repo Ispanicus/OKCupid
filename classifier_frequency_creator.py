@@ -28,8 +28,10 @@ def freq_creator(essay_list):
             essay_trigram_list = []            
             classifier_dictionary = {}
             for clas in classifiers:
-                if data[clas][i]:
+                if data[clas][i] != ' ':
                     classifier_dictionary[clas] = data[clas][i]
+                else:
+                    classifier_dictionary[clas] = False
             if type(essay) != float:
                 tmp.extend([w for w in essay.split()])
                 for w in tmp:
