@@ -50,7 +50,7 @@ def bayes(ngram, essay, classifier):
        1 = bigram
        2 = trigram
     '''
-    featuresets = [(document_features(t), class_dic[classifier]) for (t, class_dic) in ngram_tuple[ngram][essay] if (t and class_dic[classifier] != (False or None)]
+    featuresets = [(document_features(t), class_dic[classifier]) for (t, class_dic) in ngram_tuple[ngram][essay] if (t and class_dic[classifier] != False and type(class_dic[classifier]) != float)]
     length = len(featuresets)
     shuffle(featuresets)
     train_set, test_set = featuresets[length//2:], featuresets[:length//2]

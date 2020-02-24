@@ -1,5 +1,6 @@
 import nltk
 import pandas as pd
+from math import isnan
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 import pickle
@@ -28,8 +29,9 @@ def freq_creator(essay_list):
             essay_trigram_list = []            
             classifier_dictionary = {}
             for clas in classifiers:
-                if data[clas][i] != ' ':
-                    classifier_dictionary[clas] = data[clas][i]
+                var = data[clas][i]
+                if var != ' ' and type(var) != float:
+                    classifier_dictionary[clas] = var
                 else:
                     classifier_dictionary[clas] = False
             if type(essay) != float:
