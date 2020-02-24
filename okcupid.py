@@ -2,6 +2,9 @@ import nltk
 import pandas as pd
 import pickle
 import sys
+from collections import defaultdict
+from nltk.classify import NaiveBayesClassifier
+from nltk.metrics.scores import precision, recall, f_measure
 from nltk.stem.porter import PorterStemmer
 from random import shuffle
 
@@ -47,17 +50,33 @@ def bayes(ngram, essay, classifier):
        1 = bigram
        2 = trigram
     '''
-    featuresets = [(document_features(t), class_dic[classifier]) for (t, class_dic) in ngram_tuple[ngram][essay] if (t and (class_dic[classifier] != (' ' or False)))]
+    featuresets = [(document_features(t), class_dic[classifier]) for (t, class_dic) in ngram_tuple[ngram][essay] if (t and class_dic[classifier] != (False or None)]
     length = len(featuresets)
-    shuffle(featuresets)    
+    shuffle(featuresets)
     train_set, test_set = featuresets[length//2:], featuresets[:length//2]
-    classifier = nltk.NaiveBayesClassifier.train(train_set)
-    print(nltk.classify.accuracy(classifier, test_set))
-    return classifier.show_most_informative_features(100)
+    classifier = NaiveBayesClassifier.train(train_set)
+    predictions, gold_labels = defaultdict(set), defaultdict(set)
+    for i, (features, label) in enumerate(test_set):
+        predictions[classifier.classify(features)].add(i)
+        gold_labels[label].add(i)
+    for label in predictions:
+        print(label, 'Precision:', precision(gold_labels[label], predictions[label]))
+        print(label, 'Recall:', recall(gold_labels[label], predictions[label]))
+        print(label, 'F1-Score:', f_measure(gold_labels[label], predictions[label]))
+        print()
     
+    #cm = nltk.ConfusionMatrix(train_set, test_set)
+    #print(cm.pretty_format(sort_by_count=True, show_percents=True, truncate=9))
+    #print('Accuracy:',nltk.classify.accuracy(classifier, test_set))
+    #trains = set(classifier)
+    #tests = set(test_set)
+    #print('Precision:',precision(trains, tests))
+    #print('Recall:',recall(trains, tests))
+    #print('F-Score:',f_measure(trains, tests))
+    classifier.show_most_informative_features(100)
 
 def main():
-    print(bayes(ngram, essay, classifier))
+    bayes(ngram, essay, classifier)
 
 if __name__ == '__main__':
     main()
