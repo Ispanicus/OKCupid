@@ -54,9 +54,9 @@ def bayes(ngram, essay, classifier):
     counts = Counter(clas for (text, clas) in temp_featuresets)
     shuffle(temp_featuresets)
     featuresets = []
-    smallest = 0
+    smallest = 100.000
     for key in counts:
-        if counts[key] > smallest:
+        if counts[key] < smallest:
             smallest = key
     counter = counts[smallest]
     for tup in temp_featuresets:
