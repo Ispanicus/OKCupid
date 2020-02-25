@@ -9,7 +9,7 @@ def freq_ngrams(essay_list):
     stop_words = stopwords.words('english')
     porter = PorterStemmer()
     data = pd.read_csv('Data/cleanerstill.csv', sep=";")
-    half = len(data.index)//2
+    test = len(data.index)//10
     every_word = []
     every_bigram = []
     every_trigram = []
@@ -18,7 +18,7 @@ def freq_ngrams(essay_list):
         all_words = []
         all_bigrams = []
         all_trigrams = []
-        essays = [e for e in data[es][1:half]]
+        essays = [e for e in data[es][test:]]
         
         for i, essay in enumerate(essays):
             tmp = []

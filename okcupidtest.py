@@ -1,3 +1,9 @@
+from nltk.classify.scikitlearn import SklearnClassifier
+from sklearn.naive_bayes import MultinomialNB,BernoulliNB
+from sklearn.linear_model import LogisticRegression,SGDClassifier
+from sklearn.svm import SVC, LinearSVC, NuSVC
+
+
 import nltk
 import pandas as pd
 import pickle
@@ -53,10 +59,12 @@ def bayes(ngram, essay, classifier):
     '''
     temp_featuresets = [(document_features(t), class_dic[classifier]) for (t, class_dic) in ngram_tuple[ngram][essay] if (t and class_dic[classifier] != False and type(class_dic[classifier]) != float)]
     counts = Counter(clas for (text, clas) in temp_featuresets)
+    print(counts)
     min_key, min_count = min(counts.items(), key=itemgetter(1))
     shuffle(temp_featuresets)
     featuresets = []
     counter = min_count
+    print(counter)
     for tup in temp_featuresets:
         if tup[1] == min_key:
             featuresets.append(tup)
@@ -67,11 +75,11 @@ def bayes(ngram, essay, classifier):
             pass
     length = len(featuresets)
     shuffle(featuresets)
-    train_set, test_set = featuresets[length//2:], featuresets[:length//2]
-    classifier = NaiveBayesClassifier.train(train_set)
+    training_set, testing_set = featuresets[length//2:], featuresets[:length//2]
+    classifier = NaiveBayesClassifier.train(training_set)
     predictions, gold_labels = defaultdict(set), defaultdict(set)
-    print('Accuracy:',nltk.classify.accuracy(classifier, test_set))
-    for i, (features, label) in enumerate(test_set):
+
+    for i, (features, label) in enumerate(testing_set):
         predictions[classifier.classify(features)].add(i)
         gold_labels[label].add(i)
     for label in predictions:
@@ -79,6 +87,29 @@ def bayes(ngram, essay, classifier):
         print(label, 'Recall:', recall(gold_labels[label], predictions[label]))
         print(label, 'F1-Score:', f_measure(gold_labels[label], predictions[label]))
         print()
+
+    print("Original Naive Bayes Algo accuracy percent:", (nltk.classify.accuracy(classifier, testing_set))*100)
+    classifier.show_most_informative_features(100)
+
+    MNB_classifier = SklearnClassifier(MultinomialNB())
+    MNB_classifier.train(training_set)
+    print("MNB_classifier accuracy percent:", (nltk.classify.accuracy(MNB_classifier, testing_set))*100)
+
+    BernoulliNB_classifier = SklearnClassifier(BernoulliNB())
+    BernoulliNB_classifier.train(training_set)
+    print("BernoulliNB_classifier accuracy percent:", (nltk.classify.accuracy(BernoulliNB_classifier, testing_set))*100)
+
+    LogisticRegression_classifier = SklearnClassifier(LogisticRegression())
+    LogisticRegression_classifier.train(training_set)
+    print("LogisticRegression_classifier accuracy percent:", (nltk.classify.accuracy(LogisticRegression_classifier, testing_set))*100)
+
+    SGDClassifier_classifier = SklearnClassifier(SGDClassifier())
+    SGDClassifier_classifier.train(training_set)
+    print("SGDClassifier_classifier accuracy percent:", (nltk.classify.accuracy(SGDClassifier_classifier, testing_set))*100)
+
+    LinearSVC_classifier = SklearnClassifier(LinearSVC())
+    LinearSVC_classifier.train(training_set)
+    print("LinearSVC_classifier accuracy percent:", (nltk.classify.accuracy(LinearSVC_classifier, testing_set))*100)
     
     #cm = nltk.ConfusionMatrix(train_set, test_set)
     #print(cm.pretty_format(sort_by_count=True, show_percents=True, truncate=9))
@@ -88,7 +119,6 @@ def bayes(ngram, essay, classifier):
     #print('Precision:',precision(trains, tests))
     #print('Recall:',recall(trains, tests))
     #print('F-Score:',f_measure(trains, tests))
-    classifier.show_most_informative_features(100)
     return
 
 def main():

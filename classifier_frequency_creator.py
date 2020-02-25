@@ -12,13 +12,13 @@ def freq_creator(essay_list):
     essay_unigrams = {}
     essay_bigrams = {}
     essay_trigrams = {}
-    half = len(data.index)//2    
+    test = len(data.index)//10
     '''essay_unigrams['essay0'] will contain a list of all unigrams for each essay, along with a dictionary of all values for the classifiers
     You access it by doing essay_unigrams['essay0'][i] where i is an index for a tuple of each essay in essay0 and a dictionary of classifier values'''
     classifiers = ["age", "body type", "diet", "drinks", "drugs", "education", "ethnicity", "height", "income", "job", "location", "offspring", "orientation", "pets", "religion", "sex", "sign", "smokes", "speaks", "status"]
     for es in essay_list:
         all_bigrams = []
-        essays = [e for e in data[es][1:half]]
+        essays = [e for e in data[es][test:]]
         unigrams_list = []
         bigrams_list = []
         trigrams_list = []
