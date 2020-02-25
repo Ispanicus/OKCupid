@@ -10,14 +10,10 @@ def freq_ngrams(essay_list):
     porter = PorterStemmer()
     data = pd.read_csv('Data/cleanerstill.csv', sep=";")
     test = len(data.index)//10
-    every_word = []
-    every_bigram = []
-    every_trigram = []
+    every_ngram = []
     
     for es in essay_list:
-        all_words = []
-        all_bigrams = []
-        all_trigrams = []
+        all_ngrams = []
         essays = [e for e in data[es][test:]]
         
         for i, essay in enumerate(essays):
@@ -31,36 +27,22 @@ def freq_ngrams(essay_list):
                         if not s.isdigit() and s not in stop_words:
                             tmp_list.append(s)
                 for j in range(len(tmp_list)-1):
-                    all_bigrams.append(" ".join((tmp_list[j],tmp_list[j+1])))
+                    all_ngrams.append(" ".join((tmp_list[j],tmp_list[j+1])))
                 for k in range(len(tmp_list)-2):
-                    all_trigrams.append(" ".join((tmp_list[k],tmp_list[k+1],tmp_list[k+2])))
-                all_words.extend(tmp_list)
+                    all_ngrams.append(" ".join((tmp_list[k],tmp_list[k+1],tmp_list[k+2])))
+                all_ngrams.extend(tmp_list)
                 
-        freq_words = nltk.FreqDist(w for w in all_words)
-        freq_bigrams = nltk.FreqDist(w for w in all_bigrams)
-        freq_trigrams = nltk.FreqDist(w for w in all_trigrams)
+        freq_ngrams = nltk.FreqDist(w for w in all_ngrams)
         
-        with open(f"Data/{es}_freq_words", 'wb') as file:
-            pickle.dump(freq_words, file)
-        with open(f"Data/{es}_freq_bigrams", 'wb') as file:
-            pickle.dump(freq_bigrams, file)
-        with open(f"Data/{es}_freq_trigrams", 'wb') as file:
-            pickle.dump(freq_trigrams, file)
+        with open(f"Data/{es}_freq_ngrams", 'wb') as file:
+            pickle.dump(freq_ngrams, file)
 
-        every_word.extend(all_words)
-        every_bigram.extend(all_bigrams)
-        every_trigram.extend(all_trigrams)
+        every_ngram.extend(all_ngrams)
         
-    freq_all_words = nltk.FreqDist(w for w in every_word)
-    freq_all_bigrams = nltk.FreqDist(w for w in every_bigram)
-    freq_all_trigrams = nltk.FreqDist(w for w in every_trigram)
+    freq_all_ngrams = nltk.FreqDist(w for w in every_ngram)
 
-    with open("Data/all_freq_words", 'wb') as file:
-        pickle.dump(freq_all_words, file)
-    with open("Data/all_freq_bigrams", 'wb') as file:
-        pickle.dump(freq_all_bigrams, file)
-    with open("Data/all_freq_trigrams", 'wb') as file:
-        pickle.dump(freq_all_trigrams, file)
+    with open("Data/all_freq_ngrams", 'wb') as file:
+        pickle.dump(freq_all_ngrams, file)
         
 def main():
     freq_ngrams(['essay0','essay4','essay6','essay7','essay8'])

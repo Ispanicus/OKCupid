@@ -9,28 +9,17 @@ from nltk.stem.porter import PorterStemmer
 from operator import itemgetter
 from random import shuffle
 
-ngram = int(sys.argv[1])
-essay = sys.argv[2]
-classifier = sys.argv[3]
-all = sys.argv[4]
+essay = sys.argv[1]
+classifier = sys.argv[2]
+all = sys.argv[3]
 
-if ngram == 0:
-    if all:
-        infile = open(f"Data/all_freq_words", 'rb')
-    else:
-        infile = open(f"Data/{essay}_freq_words", 'rb')
-elif ngram == 1:
-    if all:
-        infile = open(f"Data/all_freq_bigrams", 'rb')
-    else:
-        infile = open(f"Data/{essay}_freq_bigrams", 'rb')
+if all:
+    infile = open(f"Data/all_freq_ngrams", 'rb')
 else:
-    if all:
-        infile = open(f"Data/all_freq_trigrams", 'rb')
-    else:
-        infile = open(f"Data/{essay}_freq_trigrams", 'rb')
+    infile = open(f"Data/{essay}_freq_ngrams", 'rb')
+
 freq_ngrams = pickle.load(infile)
-word_features = [w for (w, f) in freq_ngrams.most_common(2000)]
+word_features = [w for (w, f) in freq_ngrams.most_common(5000)]
 infile.close()
 
 infile = open("Data/essay_ngrams", 'rb')
@@ -46,12 +35,12 @@ def document_features(document):
         features['contains({})'.format(word)] = (word in document_words)
     return features
 
-def bayes(ngram, essay, classifier):
+def bayes(essay, classifier):
     '''0 = unigram
        1 = bigram
        2 = trigram
     '''
-    temp_featuresets = [(document_features(t), class_dic[classifier]) for (t, class_dic) in ngram_tuple[ngram][essay] if (t and class_dic[classifier] != False and type(class_dic[classifier]) != float)]
+    temp_featuresets = [(document_features(t), class_dic[classifier]) for (t, class_dic) in ngram_tuple[essay] if (t and class_dic[classifier] != False and type(class_dic[classifier]) != float)]
     counts = Counter(clas for (text, clas) in temp_featuresets)
     min_key, min_count = min(counts.items(), key=itemgetter(1))
     shuffle(temp_featuresets)
@@ -92,7 +81,7 @@ def bayes(ngram, essay, classifier):
     return
 
 def main():
-    bayes(ngram, essay, classifier)
+    bayes(essay, classifier)
 
 if __name__ == '__main__':
     main()

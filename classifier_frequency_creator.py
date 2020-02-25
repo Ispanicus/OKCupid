@@ -9,9 +9,7 @@ def freq_creator(essay_list):
     stop_words = stopwords.words('english')
     porter = PorterStemmer()
     data = pd.read_csv('Data/cleanerstill.csv', sep=";")
-    essay_unigrams = {}
-    essay_bigrams = {}
-    essay_trigrams = {}
+    essay_ngrams = {}
     test = len(data.index)//10
     '''essay_unigrams['essay0'] will contain a list of all unigrams for each essay, along with a dictionary of all values for the classifiers
     You access it by doing essay_unigrams['essay0'][i] where i is an index for a tuple of each essay in essay0 and a dictionary of classifier values'''
@@ -19,14 +17,11 @@ def freq_creator(essay_list):
     for es in essay_list:
         all_bigrams = []
         essays = [e for e in data[es][test:]]
-        unigrams_list = []
-        bigrams_list = []
-        trigrams_list = []
+        ngrams_list = []
         for i, essay in enumerate(essays):
             tmp = []
             tmp_list = []
-            essay_bigram_list = []
-            essay_trigram_list = []            
+            essay_ngram_list = []   
             classifier_dictionary = {}
             for clas in classifiers:
                 var = data[clas][i]
@@ -41,18 +36,14 @@ def freq_creator(essay_list):
                     for s in splt:
                         if not s.isdigit():
                             tmp_list.append(porter.stem(s))
+                essay_ngram_list.extend(tmp_list)
                 for j in range(len(tmp_list)-1):
-                    essay_bigram_list.append(" ".join((tmp_list[j],tmp_list[j+1])))
+                    essay_ngram_list.append(" ".join((tmp_list[j],tmp_list[j+1])))
                 for k in range(len(tmp_list)-2):
-                    essay_trigram_list.append(" ".join((tmp_list[k],tmp_list[k+1],tmp_list[k+2])))
-                unigrams_list.append((tmp_list, classifier_dictionary))
-                bigrams_list.append((essay_bigram_list, classifier_dictionary))
-                trigrams_list.append((essay_trigram_list, classifier_dictionary))
-                
-        essay_unigrams[es] = unigrams_list
-        essay_bigrams[es] = bigrams_list
-        essay_trigrams[es] = trigrams_list
-    return (essay_unigrams, essay_bigrams, essay_trigrams)
+                    essay_ngram_list.append(" ".join((tmp_list[k],tmp_list[k+1],tmp_list[k+2])))
+                ngrams_list.append((essay_ngram_list, classifier_dictionary))
+        essay_ngrams[es] = ngrams_list
+    return essay_ngrams
 
 def main():
     ngrams = freq_creator(['essay0','essay4','essay6','essay7','essay8'])
