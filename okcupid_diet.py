@@ -50,7 +50,7 @@ def bayes(ngram, essay, classifier):
        1 = bigram
        2 = trigram
     '''
-    temp_featuresets = [(document_features(t), class_dic[classifier]) for (t, class_dic) in ngram_tuple[ngram][essay] if (t and class_dic[classifier] != False and type(class_dic[classifier]) != float)]
+    temp_featuresets = [(document_features(t), "anything" if "anything" in class_dic[classifier] else "other") for (t, class_dic) in ngram_tuple[ngram][essay] if (t and class_dic[classifier] != False)]
     counts = Counter(clas for (text, clas) in temp_featuresets)
     shuffle(temp_featuresets)
     featuresets = []
@@ -67,12 +67,16 @@ def bayes(ngram, essay, classifier):
             counter -= 1
         else:
             pass
+
     length = len(featuresets)
     shuffle(featuresets)
     train_set, test_set = featuresets[length//2:], featuresets[:length//2]
     classifier = NaiveBayesClassifier.train(train_set)
-    print('Accuracy:',nltk.classify.accuracy(classifier, test_set))
     predictions, gold_labels = defaultdict(set), defaultdict(set)
+    
+    
+    
+    print('Accuracy:',nltk.classify.accuracy(classifier, test_set))
     for i, (features, label) in enumerate(test_set):
         predictions[classifier.classify(features)].add(i)
         gold_labels[label].add(i)
