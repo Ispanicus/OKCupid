@@ -75,7 +75,7 @@ def bayes(ngram, essay, classifier):
             pass
     length = len(featuresets)
     shuffle(featuresets)
-    training_set, testing_set = featuresets[length//2:], featuresets[:length//2]
+    training_set, testing_set = featuresets[length//10:], featuresets[:length//10]
     classifier = NaiveBayesClassifier.train(training_set)
     predictions, gold_labels = defaultdict(set), defaultdict(set)
 

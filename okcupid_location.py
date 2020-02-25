@@ -65,7 +65,7 @@ def bayes(ngram, essay, classifier):
             pass
     shuffle(featuresets)
     length = len(featuresets)
-    train_set, test_set = featuresets[length//2:], featuresets[:length//2]
+    train_set, test_set = featuresets[length//10:], featuresets[:length//10]
     classifier = NaiveBayesClassifier.train(train_set)
     predictions, gold_labels = defaultdict(set), defaultdict(set)
     print('Accuracy:',nltk.classify.accuracy(classifier, test_set))
