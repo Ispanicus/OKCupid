@@ -8,7 +8,9 @@ import pickle
 def freq_creator(essay_list):
     stop_words = stopwords.words('english')
     porter = PorterStemmer()
-    data = pd.read_csv('Data/cleanerstill.csv', sep=";")
+    #data = pd.read_csv('Data/cleanerstill.csv', sep=";")
+    infile = open("Data/cleaned_data", 'rb')
+    data = pickle.load(infile)
     essay_ngrams = {}
     test = len(data.index)//10
     '''essay_unigrams['essay0'] will contain a list of all unigrams for each essay, along with a dictionary of all values for the classifiers
