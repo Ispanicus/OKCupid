@@ -8,20 +8,39 @@ from nltk.metrics.scores import precision, recall, f_measure
 from nltk.stem.porter import PorterStemmer
 from random import shuffle
 
-essay = sys.argv[1]
-classifier = sys.argv[2]
-all = sys.argv[3]
-if all:
-    infile = open(f"Data/all_freq_ngrams", 'rb')
+ngram = int(sys.argv[1])
+essay = sys.argv[2]
+label = sys.argv[3]
+all = sys.argv[4]
+
+if ngram == 0:
+    if all:
+        infile = open(f"Data/all_freq_words", 'rb')
+    else:
+        infile = open(f"Data/{essay}_freq_words", 'rb')
+elif ngram == 1:
+    if all:
+        infile = open(f"Data/all_freq_bigrams", 'rb')
+    else:
+        infile = open(f"Data/{essay}_freq_bigrams", 'rb')
 else:
-    infile = open(f"Data/{essay}_freq_ngrams", 'rb')
+    if all:
+        infile = open(f"Data/all_freq_trigrams", 'rb')
+    else:
+        infile = open(f"Data/{essay}_freq_trigrams", 'rb')
+
 freq_ngrams = pickle.load(infile)
 word_features = [w for (w, f) in freq_ngrams.most_common(2000)]
 infile.close()
-infile = open("Data/essay_ngrams", 'rb')
-ngram_tuple = pickle.load(infile)
+
+infile = open("Data/train_ngrams", 'rb')
+train_ngrams = pickle.load(infile)
 '''tuple with essay_unigrams, essay_bigrams and essay_trigrams
-to access unigrams, just ngram_tuple["essay0"]'''
+to access unigrams, just ngram_tuple[0]["essay0"]'''
+infile.close()
+
+infile = open("Data/dev_ngrams", 'rb')
+dev_ngrams = pickle.load(infile)
 infile.close()
 
 def document_features(document):
@@ -31,16 +50,15 @@ def document_features(document):
         features['contains({})'.format(word)] = (word in document_words)
     return features
 
-def bayes(essay, classifier):
-    featuresets = [(document_features(t), class_dic[classifier]) for (t, class_dic) in ngram_tuple[essay][:len(ngram_tuple[essay])//2] if (t and class_dic[classifier] != False and type(class_dic[classifier]) != float)]
-    featuresets2 = [(document_features(t), class_dic[classifier]) for (t, class_dic) in ngram_tuple[essay][len(ngram_tuple[essay])//2:] if (t and class_dic[classifier] != False and type(class_dic[classifier]) != float)]
-    featuresets.extend(featuresets2)
-    length = len(featuresets)
-    shuffle(featuresets)
-    train_set, test_set = featuresets[length//10:], featuresets[:length//10]
-    classifier = NaiveBayesClassifier.train(train_set)
-    '''predictions, gold_labels = defaultdict(set), defaultdict(set)
+def bayes(ngram, essay, label):
+    train_features = [(document_features(t), class_dic[label]) for (t, class_dic) in train_ngrams[ngram][essay]]
+    dev_features = [(document_features(t), class_dic[label]) for (t, class_dic) in dev_ngrams[ngram][essay]]
+    shuffle(train_features)
+    shuffle(dev_features)
+    train_set, test_set = train_features, dev_features
+    classifier = nltk.NaiveBayesClassifier.train(train_set)
     print('Accuracy:',nltk.classify.accuracy(classifier, test_set))
+    '''predictions, gold_labels = defaultdict(set), defaultdict(set)
     for i, (features, label) in enumerate(test_set):
         predictions[classifier.classify(features)].add(i)
         gold_labels[label].add(i)
@@ -62,7 +80,7 @@ def bayes(essay, classifier):
     return
 
 def main():
-    bayes(essay, classifier)
+    bayes(ngram, essay, label)
 
 if __name__ == '__main__':
     main()
