@@ -6,6 +6,9 @@ from collections import defaultdict
 from nltk.classify import NaiveBayesClassifier
 from nltk.metrics.scores import precision, recall, f_measure
 from nltk.stem.porter import PorterStemmer
+from sklearn.naive_bayes import MultinomialNB,BernoulliNB
+from sklearn.linear_model import LogisticRegression,SGDClassifier
+from sklearn.svm import LinearSVC
 from random import shuffle
 
 ngram = int(sys.argv[1])
@@ -55,11 +58,12 @@ def bayes(ngram, essay, label):
     dev_features = [(document_features(t), class_dic[label]) for (t, class_dic) in dev_ngrams[ngram][essay]]
     shuffle(train_features)
     shuffle(dev_features)
-    train_set, test_set = train_features, dev_features
-    classifier = nltk.NaiveBayesClassifier.train(train_set)
-    print('Accuracy:',nltk.classify.accuracy(classifier, test_set))
-    '''predictions, gold_labels = defaultdict(set), defaultdict(set)
-    for i, (features, label) in enumerate(test_set):
+    training_set, testing_set = train_features, dev_features
+    classifier = nltk.NaiveBayesClassifier.train(training_set)
+    print("Naive Bayes accuracy percent:", (nltk.classify.accuracy(classifier, testing_set))*100)
+    classifier.show_most_informative_features(100)
+    predictions, gold_labels = defaultdict(set), defaultdict(set)
+    for i, (features, label) in enumerate(testing_set):
         predictions[classifier.classify(features)].add(i)
         gold_labels[label].add(i)
     for label in predictions:
@@ -67,16 +71,26 @@ def bayes(ngram, essay, label):
         print(label, 'Recall:', recall(gold_labels[label], predictions[label]))
         print(label, 'F1-Score:', f_measure(gold_labels[label], predictions[label]))
         print()
-    
-    #cm = nltk.ConfusionMatrix(train_set, test_set)
-    #print(cm.pretty_format(sort_by_count=True, show_percents=True, truncate=9))
-    #print('Accuracy:',nltk.classify.accuracy(classifier, test_set))
-    #trains = set(classifier)
-    #tests = set(test_set)
-    #print('Precision:',precision(trains, tests))
-    #print('Recall:',recall(trains, tests))
-    #print('F-Score:',f_measure(trains, tests))'''
-    classifier.show_most_informative_features(100)
+    '''
+    MNB_classifier = SklearnClassifier(MultinomialNB())
+    MNB_classifier.train(training_set)
+    print("MNB_classifier accuracy percent:", (nltk.classify.accuracy(MNB_classifier, testing_set))*100)
+
+    BernoulliNB_classifier = SklearnClassifier(BernoulliNB())
+    BernoulliNB_classifier.train(training_set)
+    print("BernoulliNB_classifier accuracy percent:", (nltk.classify.accuracy(BernoulliNB_classifier, testing_set))*100)
+
+    LogisticRegression_classifier = SklearnClassifier(LogisticRegression(max_iter = 150))
+    LogisticRegression_classifier.train(training_set)
+    print("LogisticRegression_classifier accuracy percent:", (nltk.classify.accuracy(LogisticRegression_classifier, testing_set))*100)
+
+    SGDClassifier_classifier = SklearnClassifier(SGDClassifier())
+    SGDClassifier_classifier.train(training_set)
+    print("SGDClassifier_classifier accuracy percent:", (nltk.classify.accuracy(SGDClassifier_classifier, testing_set))*100)
+
+    LinearSVC_classifier = SklearnClassifier(LinearSVC(max_iter=1200))
+    LinearSVC_classifier.train(training_set)
+    print("LinearSVC_classifier accuracy percent:", (nltk.classify.accuracy(LinearSVC_classifier, testing_set))*100)'''
     return
 
 def main():
