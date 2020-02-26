@@ -46,6 +46,17 @@ infile = open("Data/dev_ngrams", 'rb')
 dev_ngrams = pickle.load(infile)
 infile.close()
 
+def label_func(l, cdl):
+    if l == "sex" or cdl == "white":
+        return cdl
+    elif l == "age":
+        if cdl <= 30:
+            return "u_30"
+        else:
+            return "o_30"
+    else:
+        return "n-white"
+
 def document_features(document):
     document_words = set(document)
     features = {}
@@ -54,14 +65,14 @@ def document_features(document):
     return features
 
 def bayes(ngram, essay, label):
-    train_features = [(document_features(t), class_dic[label]) for (t, class_dic) in train_ngrams[ngram][essay]]
-    dev_features = [(document_features(t), class_dic[label]) for (t, class_dic) in dev_ngrams[ngram][essay]]
+    train_features = [(document_features(t), label_func(label, class_dic[label])) for (t, class_dic) in train_ngrams[ngram][essay]]
+    dev_features = [(document_features(t), label_func(label, class_dic[label])) for (t, class_dic) in dev_ngrams[ngram][essay]]
     shuffle(train_features)
     shuffle(dev_features)
     training_set, testing_set = train_features, dev_features
     classifier = nltk.NaiveBayesClassifier.train(training_set)
     print("Naive Bayes accuracy percent:", (nltk.classify.accuracy(classifier, testing_set))*100)
-    classifier.show_most_informative_features(100)
+    print(classifier.show_most_informative_features(100))
     predictions, gold_labels = defaultdict(set), defaultdict(set)
     for i, (features, label) in enumerate(testing_set):
         predictions[classifier.classify(features)].add(i)
