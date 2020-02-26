@@ -8,29 +8,23 @@ import pickle
 def freq_creator(essay_list):
     stop_words = stopwords.words('english')
     porter = PorterStemmer()
-    #data = pd.read_csv('Data/cleanerstill.csv', sep=";")
-    infile = open("Data/cleaned_data", 'rb')
-    data = pickle.load(infile)
+    infile = open("Data/train_data", 'rb')
+    train_data = pickle.load(infile)
     essay_ngrams = {}
-    test = len(data.index)//10
     '''essay_unigrams['essay0'] will contain a list of all unigrams for each essay, along with a dictionary of all values for the classifiers
     You access it by doing essay_unigrams['essay0'][i] where i is an index for a tuple of each essay in essay0 and a dictionary of classifier values'''
-    classifiers = ["age", "body type", "diet", "drinks", "drugs", "education", "ethnicity", "height", "income", "job", "location", "offspring", "orientation", "pets", "religion", "sex", "sign", "smokes", "speaks", "status"]
+    classifiers = ["age", "ethnicity", "sex"]
     for es in essay_list:
         all_bigrams = []
-        essays = [e for e in data[es][test:]]
+        essays = [(train_data[es].index[0], e) for e in train_data[es]]
         ngrams_list = []
-        for i, essay in enumerate(essays):
+        for (i, essay) in essays:
             tmp = []
             tmp_list = []
             essay_ngram_list = []   
             classifier_dictionary = {}
             for clas in classifiers:
-                var = data[clas][i]
-                if var != ' ' and type(var) != float:
-                    classifier_dictionary[clas] = var
-                else:
-                    classifier_dictionary[clas] = False
+                classifier_dictionary[clas] = train_data[clas][i]
             if type(essay) != float:
                 tmp.extend([w for w in essay.split()])
                 for w in tmp:
@@ -48,7 +42,7 @@ def freq_creator(essay_list):
     return essay_ngrams
 
 def main():
-    ngrams = freq_creator(['essay0','essay4','essay6','essay7','essay8'])
+    ngrams = freq_creator(['essay0','essay4'])
     outfile = open('Data/essay_ngrams', 'wb')
     pickle.dump(ngrams, outfile)
     outfile.close()

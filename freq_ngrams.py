@@ -8,15 +8,14 @@ import pickle
 def freq_ngrams(essay_list):
     stop_words = stopwords.words('english')
     porter = PorterStemmer()
-    data = pd.read_csv('Data/cleanerstill.csv', sep=";")
-    test = len(data.index)//10
+    infile = open("Data/train_data", 'rb')
+    train_data = pickle.load(infile)
     every_ngram = []
     
     for es in essay_list:
         all_ngrams = []
-        essays = [e for e in data[es][test:]]
-        
-        for i, essay in enumerate(essays):
+        essays = [(train_data[es].index[0], e) for e in train_data[es]]
+        for i, essay in essays:
             tmp = []
             tmp_list = []
             if type(essay) != float:
@@ -45,7 +44,7 @@ def freq_ngrams(essay_list):
         pickle.dump(freq_all_ngrams, file)
         
 def main():
-    freq_ngrams(['essay0','essay4','essay6','essay7','essay8'])
+    freq_ngrams(['essay0','essay4'])
 
 if '__main__' == __name__:
     main()
