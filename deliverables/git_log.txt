@@ -1,0 +1,105 @@
+291924f added report pdf to deliverables
+e459dc2 added deliverables
+58fd973 Merge branch 'master' of https://github.itu.dk/alai/OkCupid
+ccefd1b added explanation to bayes()
+106c280 Delete .swp
+e8a0c00 Merge branch 'master' of https://github.itu.dk/alai/OkCupid
+e6c6936 added dtale
+a3ec3ca notebook with analysis, works
+188c3a1 updated the notebook
+c9d3a9a added section 2.1.1
+a9390a6 Added sections 1.1,1.2
+be3e2d5 saved the day
+29f949b added code
+60a9225 started notebook writing
+948247b 10 most common words on essay4
+4c65f40 10 most common words on essay4
+1e4cce9 Updated okcupid.py with function to binarize labels
+dc1d8f6 Update Test_results.xlsx
+2fde9c0 Committing essays
+b28f5b0 Removed useless scripts and updated okcupid for choice of other algorithms
+4c0e74b Merge branch 'master' of https://github.itu.dk/alai/OkCupid
+b54244e ignore filesize >100mb
+4c1476c ran generators
+aab2cf1 Create dev_ngrams
+6623feb please work this time
+acefddf Merge branch 'master' of https://github.itu.dk/alai/OkCupid
+b7b7bd8 Revert "Revert "Update final_data_maybe-checkpoint.ipynb""
+9e0419d Revert "Update final_data_maybe-checkpoint.ipynb"
+21e82b6 Delete final_data_maybe.ipynb
+9c9bf6d Create .gitignore
+174af21 Removed unnecessary data
+e246d95 Update final_data_maybe-checkpoint.ipynb
+246c5e9 Update final_data_maybe.ipynb
+fbc35d9 Pickled clean data
+0239c56 Fixed all files for the new data, since it wasn't working before
+fd3b061 changed mask of final_data to filter out empty essay0 and essay4
+94e9bf2 Updated data files with the new data
+007f538 Updated the frequency creating scripts for the new training data
+44d915f Separated data into train, dev, test
+48ec1be adjusted final data
+e17ad7e Update final_data_maybe.ipynb
+dfc8e46 Update balanced_data.ipynb
+a4eb00d Finally have cleaned data pickled into cleaned_data
+5bb09dc final data scaled to 30000 obs
+506bd30 Merge branch 'master' of https://github.itu.dk/alai/OkCupid
+4fe9340 scaled down data to 30000 obs
+79d0606 Useless update that fixed problem with okcupid. Okcupid need to change anyways after we clean the data.
+0c119e0 'added more filtering on df'
+a9e4388 removed aux code
+4a87e90 filtered columns
+f25d213 dataframe manipulation to balance data set
+ca485ae Revamped the scripts to create just one file for all ngrams combined
+03879f6 updated balanced dataset
+f2b529f Update Test_results.xlsx
+b2c02fc fixed
+4eb21ac Updated length featuresets
+85604bb Changed amount of test/train split
+0f9db6b updated
+9bd26a8 Merge branch 'master' of https://github.itu.dk/alai/OkCupid
+b514812 Update cleanerstill.CSV
+15f0945 added job, education m.m.
+9ee4e3d added exploratory analysis
+c910d5b Actually fixed the balancing now
+c3c5519 Fixed the counter code
+16ca778 fixed
+be149be Updated files to be balance out the classifiers and have the same amount of each
+bafbb38 fixed
+c2e915e WIP on master: ddab8d7 added results for sex
+551b908 index on master: ddab8d7 added results for sex
+990bf54 updated
+19d9a34 I THINK the nan bug is fixed
+ddab8d7 added results for sex
+ab6e6af Update okcupid.py
+0f34e2a Updated
+7fb9800 updated and new
+8c86d82 Update okcupid.py
+02fcd00 Delete freq_words_essay_4.py
+c83daec Fixed some kinks and standardized the okcupid.py to be able to run from bash
+1c4f366 Progress everywhere!
+f7c0e09 Add files via upload
+07165da Merge branch 'master' of https://github.itu.dk/alai/OkCupid
+3b80f29 classifier_frequency_creator
+f6714bf 2 classifiers, not beautifully done
+a427989 freq_ngrams.py created
+a895fb6 updated OG
+a28e6b7 update OG
+a6d61ce Merge branch 'master' of https://github.itu.dk/alai/OkCupid
+77e5870 grouped ages in intervals
+46a6d00 Ordered files into folders.
+215136a Pickles, ML and automation scripts
+6fbfbe3 cleared
+9de264e Merge branch 'master' of https://github.itu.dk/alai/OkCupid
+a8818eb Essays.txt added
+df262cd added education classifier
+704283b added diet classifier
+f035d71 added naive bayes for age, body type and drinks
+414f6c8 added education feature
+e95f38f It works!
+4ec265b Update Untitled.ipynb
+236c5f2 Update cleanerstill.CSV
+8bccbcb Create cleanerstill.CSV
+8d7e205 Delete cleandata2.csv
+44bb9d6 .
+fd7db20 upload cleandata
+197f3d2 Initial commit
