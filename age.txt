@@ -1,0 +1,502 @@
+Most Informative Features
+         contains(loyal) = True             u_30 : o_30   =      5.8 : 1.0
+          contains(haha) = True             u_30 : o_30   =      5.6 : 1.0
+       contains(partner) = True             o_30 : u_30   =      5.0 : 1.0
+   contains(recent move) = True             o_30 : u_30   =      4.8 : 1.0
+  contains(listen music) = True             o_30 : u_30   =      4.8 : 1.0
+     contains(laid back) = True             u_30 : o_30   =      4.5 : 1.0
+      contains(backpack) = True             o_30 : u_30   =      4.2 : 1.0
+      contains(new girl) = True             u_30 : o_30   =      4.1 : 1.0
+           contains(ski) = True             o_30 : u_30   =      4.0 : 1.0
+  contains(love outdoor) = True             o_30 : u_30   =      4.0 : 1.0
+        contains(disney) = True             u_30 : o_30   =      3.6 : 1.0
+   contains(dark knight) = True             u_30 : o_30   =      3.6 : 1.0
+      contains(futurama) = True             u_30 : o_30   =      3.5 : 1.0
+          contains(yoga) = True             o_30 : u_30   =      3.5 : 1.0
+       contains(spiritu) = True             o_30 : u_30   =      3.4 : 1.0
+   contains(alway sunni) = True             u_30 : o_30   =      3.4 : 1.0
+       contains(red hot) = True             u_30 : o_30   =      3.4 : 1.0
+        contains(yorker) = True             o_30 : u_30   =      3.4 : 1.0
+    contains(new yorker) = True             o_30 : u_30   =      3.4 : 1.0
+    contains(meet peopl) = True             u_30 : o_30   =      3.3 : 1.0
+        contains(deepli) = True             o_30 : u_30   =      3.3 : 1.0
+        contains(strive) = True             o_30 : u_30   =      3.3 : 1.0
+          contains(hike) = True             o_30 : u_30   =      3.3 : 1.0
+           contains(lil) = True             u_30 : o_30   =      3.3 : 1.0
+           contains(rec) = True             u_30 : o_30   =      3.2 : 1.0
+         contains(organ) = True             o_30 : u_30   =      3.2 : 1.0
+          contains(dine) = True             o_30 : u_30   =      3.1 : 1.0
+        contains(museum) = True             o_30 : u_30   =      3.1 : 1.0
+         contains(ender) = True             u_30 : o_30   =      3.1 : 1.0
+         contains(sunni) = True             u_30 : o_30   =      3.1 : 1.0
+        contains(prepar) = True             o_30 : u_30   =      3.0 : 1.0
+          contains(path) = True             o_30 : u_30   =      3.0 : 1.0
+   contains(love travel) = True             o_30 : u_30   =      3.0 : 1.0
+        contains(archer) = True             u_30 : o_30   =      3.0 : 1.0
+        contains(knight) = True             u_30 : o_30   =      2.9 : 1.0
+      contains(daughter) = True             o_30 : u_30   =      2.9 : 1.0
+            contains(ny) = True             o_30 : u_30   =      2.9 : 1.0
+       contains(patient) = True             o_30 : u_30   =      2.9 : 1.0
+          contains(kany) = True             u_30 : o_30   =      2.9 : 1.0
+       contains(recreat) = True             u_30 : o_30   =      2.9 : 1.0
+         contains(life ) = True             o_30 : u_30   =      2.9 : 1.0
+           contains(okc) = True             o_30 : u_30   =      2.9 : 1.0
+        contains(commun) = True             u_30 : o_30   =      2.8 : 1.0
+            contains(u2) = True             o_30 : u_30   =      2.8 : 1.0
+        contains(farmer) = True             o_30 : u_30   =      2.8 : 1.0
+     contains(daft punk) = True             u_30 : o_30   =      2.8 : 1.0
+  contains(chili pepper) = True             u_30 : o_30   =      2.8 : 1.0
+        contains(balanc) = True             o_30 : u_30   =      2.8 : 1.0
+    contains(south park) = True             u_30 : o_30   =      2.8 : 1.0
+          contains(daft) = True             u_30 : o_30   =      2.8 : 1.0
+      contains(berkeley) = True             o_30 : u_30   =      2.8 : 1.0
+            contains(im) = True             u_30 : o_30   =      2.7 : 1.0
+        contains(africa) = True             o_30 : u_30   =      2.7 : 1.0
+        contains(gatsbi) = True             u_30 : o_30   =      2.7 : 1.0
+  contains(park recreat) = True             u_30 : o_30   =      2.7 : 1.0
+    contains(video game) = True             u_30 : o_30   =      2.7 : 1.0
+        contains(sublim) = True             u_30 : o_30   =      2.7 : 1.0
+  contains(great gatsbi) = True             u_30 : o_30   =      2.7 : 1.0
+    contains(new experi) = True             o_30 : u_30   =      2.7 : 1.0
+        contains(volunt) = True             o_30 : u_30   =      2.7 : 1.0
+  contains(harri potter) = True             u_30 : o_30   =      2.7 : 1.0
+       contains(leonard) = True             o_30 : u_30   =      2.7 : 1.0
+    contains(enjoy good) = True             o_30 : u_30   =      2.6 : 1.0
+         contains(focus) = True             o_30 : u_30   =      2.6 : 1.0
+  contains(philadelphia) = True             u_30 : o_30   =      2.6 : 1.0
+  contains(blade runner) = True             o_30 : u_30   =      2.6 : 1.0
+        contains(potter) = True             u_30 : o_30   =      2.6 : 1.0
+          contains(gump) = True             u_30 : o_30   =      2.6 : 1.0
+      contains(fun love) = True             o_30 : u_30   =      2.6 : 1.0
+    contains(rock climb) = True             o_30 : u_30   =      2.6 : 1.0
+     contains(year love) = True             o_30 : u_30   =      2.6 : 1.0
+    contains(compassion) = True             o_30 : u_30   =      2.6 : 1.0
+   contains(like travel) = True             o_30 : u_30   =      2.6 : 1.0
+        contains(mother) = True             u_30 : o_30   =      2.6 : 1.0
+     contains(love live) = True             o_30 : u_30   =      2.5 : 1.0
+        contains(batman) = True             u_30 : o_30   =      2.5 : 1.0
+          contains(warm) = True             o_30 : u_30   =      2.5 : 1.0
+         contains(cohen) = True             o_30 : u_30   =      2.5 : 1.0
+   contains(find someon) = True             o_30 : u_30   =      2.5 : 1.0
+    contains(live music) = True             o_30 : u_30   =      2.5 : 1.0
+        contains(market) = True             o_30 : u_30   =      2.5 : 1.0
+       contains(dubstep) = True             u_30 : o_30   =      2.5 : 1.0
+        contains(incept) = True             u_30 : o_30   =      2.5 : 1.0
+      contains(park rec) = True             u_30 : o_30   =      2.5 : 1.0
+          contains(shit) = True             u_30 : o_30   =      2.5 : 1.0
+       contains(catcher) = True             u_30 : o_30   =      2.4 : 1.0
+          contains(sail) = True             o_30 : u_30   =      2.4 : 1.0
+   contains(love explor) = True             o_30 : u_30   =      2.4 : 1.0
+           contains(met) = True             u_30 : o_30   =      2.4 : 1.0
+  contains(self summari) = True             o_30 : u_30   =      2.4 : 1.0
+    contains(famili guy) = True             u_30 : o_30   =      2.4 : 1.0
+         contains(chili) = True             u_30 : o_30   =      2.4 : 1.0
+         contains(brave) = True             u_30 : o_30   =      2.4 : 1.0
+        contains(theatr) = True             o_30 : u_30   =      2.4 : 1.0
+          contains(fuck) = True             u_30 : o_30   =      2.4 : 1.0
+           contains(rye) = True             u_30 : o_30   =      2.4 : 1.0
+          contains(park) = True             u_30 : o_30   =      2.4 : 1.0
+     contains(kind food) = True             o_30 : u_30   =      2.4 : 1.0
+          contains(view) = True             o_30 : u_30   =      2.4 : 1.0
+         contains(silli) = True             o_30 : u_30   =      2.4 : 1.0
+       contains(awkward) = True             u_30 : o_30   =      2.4 : 1.0
+      contains(read lot) = True             o_30 : u_30   =      2.4 : 1.0
+       contains(spontan) = True             o_30 : u_30   =      2.4 : 1.0
+      contains(northern) = True             o_30 : u_30   =      2.4 : 1.0
+         contains(medit) = True             o_30 : u_30   =      2.3 : 1.0
+        contains(arrest) = True             u_30 : o_30   =      2.3 : 1.0
+contains(arrest develop) = True             u_30 : o_30   =      2.3 : 1.0
+         contains(climb) = True             o_30 : u_30   =      2.3 : 1.0
+         contains(liber) = True             o_30 : u_30   =      2.3 : 1.0
+      contains(slightli) = True             u_30 : o_30   =      2.3 : 1.0
+       contains(creativ) = True             o_30 : u_30   =      2.3 : 1.0
+      contains(like get) = True             u_30 : o_30   =      2.3 : 1.0
+        contains(ethnic) = True             o_30 : u_30   =      2.3 : 1.0
+          contains(judg) = True             u_30 : o_30   =      2.3 : 1.0
+         contains(leagu) = True             u_30 : o_30   =      2.3 : 1.0
+        contains(system) = True             u_30 : o_30   =      2.2 : 1.0
+       contains(complex) = True             o_30 : u_30   =      2.2 : 1.0
+        contains(career) = True             o_30 : u_30   =      2.2 : 1.0
+        contains(justic) = True             u_30 : o_30   =      2.2 : 1.0
+   contains(bang theori) = True             u_30 : o_30   =      2.2 : 1.0
+  contains(foreign film) = True             o_30 : u_30   =      2.2 : 1.0
+      contains(big bang) = True             u_30 : o_30   =      2.2 : 1.0
+contains(big bang theori) = True             u_30 : o_30   =      2.2 : 1.0
+           contains(mar) = True             u_30 : o_30   =      2.2 : 1.0
+     contains(biographi) = True             o_30 : u_30   =      2.2 : 1.0
+     contains(free time) = True             u_30 : o_30   =      2.2 : 1.0
+         contains(blade) = True             o_30 : u_30   =      2.2 : 1.0
+          contains(cafe) = True             o_30 : u_30   =      2.2 : 1.0
+          contains(wave) = True             o_30 : u_30   =      2.2 : 1.0
+         contains(latin) = True             o_30 : u_30   =      2.2 : 1.0
+         contains(simpl) = True             o_30 : u_30   =      2.2 : 1.0
+         contains(circl) = True             u_30 : o_30   =      2.2 : 1.0
+      contains(intellig) = True             o_30 : u_30   =      2.2 : 1.0
+     contains(past year) = True             o_30 : u_30   =      2.2 : 1.0
+        contains(latest) = True             o_30 : u_30   =      2.2 : 1.0
+           contains(nyc) = True             o_30 : u_30   =      2.2 : 1.0
+            contains(vs) = True             u_30 : o_30   =      2.2 : 1.0
+       contains(foreign) = True             o_30 : u_30   =      2.2 : 1.0
+           contains(edg) = True             o_30 : u_30   =      2.2 : 1.0
+         contains(geeki) = True             o_30 : u_30   =      2.2 : 1.0
+   contains(one favorit) = True             o_30 : u_30   =      2.2 : 1.0
+        contains(perhap) = True             o_30 : u_30   =      2.2 : 1.0
+          contains(skin) = True             u_30 : o_30   =      2.2 : 1.0
+     contains(walk dead) = True             u_30 : o_30   =      2.2 : 1.0
+            contains(ca) = True             o_30 : u_30   =      2.2 : 1.0
+       contains(okcupid) = True             o_30 : u_30   =      2.1 : 1.0
+          contains(gear) = True             u_30 : o_30   =      2.1 : 1.0
+         contains(opera) = True             o_30 : u_30   =      2.1 : 1.0
+          contains(bang) = True             u_30 : o_30   =      2.1 : 1.0
+       contains(oakland) = True             o_30 : u_30   =      2.1 : 1.0
+       contains(process) = True             o_30 : u_30   =      2.1 : 1.0
+         contains(saint) = True             u_30 : o_30   =      2.1 : 1.0
+          contains(awar) = True             o_30 : u_30   =      2.1 : 1.0
+     contains(time love) = True             o_30 : u_30   =      2.1 : 1.0
+          contains(glee) = True             u_30 : o_30   =      2.1 : 1.0
+    contains(friendship) = True             u_30 : o_30   =      2.1 : 1.0
+        contains(casual) = True             u_30 : o_30   =      2.1 : 1.0
+         contains(treat) = True             o_30 : u_30   =      2.1 : 1.0
+     contains(anchorman) = True             u_30 : o_30   =      2.1 : 1.0
+     contains(ladi gaga) = True             u_30 : o_30   =      2.1 : 1.0
+        contains(legend) = True             u_30 : o_30   =      2.1 : 1.0
+       contains(firefli) = True             u_30 : o_30   =      2.1 : 1.0
+       contains(mumford) = True             u_30 : o_30   =      2.1 : 1.0
+     contains(love make) = True             u_30 : o_30   =      2.1 : 1.0
+       contains(perform) = True             o_30 : u_30   =      2.0 : 1.0
+       contains(healthi) = True             o_30 : u_30   =      2.0 : 1.0
+     contains(book read) = True             o_30 : u_30   =      2.0 : 1.0
+         contains(photo) = True             o_30 : u_30   =      2.0 : 1.0
+     contains(introvert) = True             o_30 : u_30   =      2.0 : 1.0
+      contains(optimist) = True             o_30 : u_30   =      2.0 : 1.0
+     contains(kill bill) = True             u_30 : o_30   =      2.0 : 1.0
+        contains(pepper) = True             u_30 : o_30   =      2.0 : 1.0
+          contains(dont) = True             u_30 : o_30   =      2.0 : 1.0
+        contains(abroad) = True             u_30 : o_30   =      2.0 : 1.0
+            contains(gt) = True             u_30 : o_30   =      2.0 : 1.0
+          contains(mgmt) = True             u_30 : o_30   =      2.0 : 1.0
+          contains(bear) = True             u_30 : o_30   =      2.0 : 1.0
+        contains(doctor) = True             u_30 : o_30   =      2.0 : 1.0
+  contains(absolut love) = True             u_30 : o_30   =      2.0 : 1.0
+     contains(live life) = True             u_30 : o_30   =      2.0 : 1.0
+    contains(peopl love) = True             u_30 : o_30   =      2.0 : 1.0
+  contains(favorit show) = True             u_30 : o_30   =      2.0 : 1.0
+   contains(modest mous) = True             u_30 : o_30   =      2.0 : 1.0
+         contains(harri) = True             u_30 : o_30   =      2.0 : 1.0
+          contains(gaga) = True             u_30 : o_30   =      2.0 : 1.0
+        contains(modest) = True             u_30 : o_30   =      2.0 : 1.0
+          contains(rise) = True             u_30 : o_30   =      2.0 : 1.0
+          contains(jazz) = True             o_30 : u_30   =      2.0 : 1.0
+       contains(develop) = True             u_30 : o_30   =      2.0 : 1.0
+          contains(dumb) = True             u_30 : o_30   =      2.0 : 1.0
+      contains(food eat) = True             o_30 : u_30   =      2.0 : 1.0
+    contains(onlin date) = True             o_30 : u_30   =      2.0 : 1.0
+    contains(like think) = True             o_30 : u_30   =      2.0 : 1.0
+     contains(time like) = True             o_30 : u_30   =      2.0 : 1.0
+         contains(south) = True             u_30 : o_30   =      2.0 : 1.0
+        contains(fortun) = True             o_30 : u_30   =      2.0 : 1.0
+           contains(npr) = True             o_30 : u_30   =      2.0 : 1.0
+           contains(lol) = True             u_30 : o_30   =      2.0 : 1.0
+         contains(desir) = True             o_30 : u_30   =      1.9 : 1.0
+      contains(independ) = True             o_30 : u_30   =      1.9 : 1.0
+          contains(step) = True             u_30 : o_30   =      1.9 : 1.0
+ contains(modern famili) = True             u_30 : o_30   =      1.9 : 1.0
+         contains(smash) = True             u_30 : o_30   =      1.9 : 1.0
+         contains(earli) = True             o_30 : u_30   =      1.9 : 1.0
+        contains(dinner) = True             o_30 : u_30   =      1.9 : 1.0
+       contains(exercis) = True             o_30 : u_30   =      1.9 : 1.0
+       contains(theater) = True             o_30 : u_30   =      1.9 : 1.0
+        contains(attend) = True             o_30 : u_30   =      1.9 : 1.0
+        contains(quirki) = True             o_30 : u_30   =      1.9 : 1.0
+        contains(theori) = True             u_30 : o_30   =      1.9 : 1.0
+      contains(bay area) = True             o_30 : u_30   =      1.9 : 1.0
+      contains(honestli) = True             u_30 : o_30   =      1.9 : 1.0
+      contains(enjoy go) = True             o_30 : u_30   =      1.9 : 1.0
+       contains(terribl) = True             u_30 : o_30   =      1.9 : 1.0
+           contains(saw) = True             o_30 : u_30   =      1.9 : 1.0
+       contains(simpson) = True             u_30 : o_30   =      1.9 : 1.0
+         contains(sharp) = True             u_30 : o_30   =      1.9 : 1.0
+         contains(fresh) = True             o_30 : u_30   =      1.9 : 1.0
+ contains(classic music) = True             o_30 : u_30   =      1.9 : 1.0
+           contains(dad) = True             u_30 : o_30   =      1.9 : 1.0
+       contains(gabriel) = True             o_30 : u_30   =      1.9 : 1.0
+         contains(offic) = True             u_30 : o_30   =      1.9 : 1.0
+           contains(mac) = True             u_30 : o_30   =      1.9 : 1.0
+         contains(orang) = True             u_30 : o_30   =      1.9 : 1.0
+     contains(yeah yeah) = True             u_30 : o_30   =      1.9 : 1.0
+        contains(explor) = True             o_30 : u_30   =      1.9 : 1.0
+        contains(dexter) = True             u_30 : o_30   =      1.9 : 1.0
+         contains(scari) = True             u_30 : o_30   =      1.9 : 1.0
+    contains(music love) = True             o_30 : u_30   =      1.9 : 1.0
+       contains(english) = True             o_30 : u_30   =      1.9 : 1.0
+         contains(picki) = True             u_30 : o_30   =      1.9 : 1.0
+        contains(crimin) = True             u_30 : o_30   =      1.9 : 1.0
+          contains(bike) = True             o_30 : u_30   =      1.9 : 1.0
+     contains(love danc) = True             o_30 : u_30   =      1.9 : 1.0
+         contains(zombi) = True             u_30 : o_30   =      1.9 : 1.0
+     contains(basketbal) = True             u_30 : o_30   =      1.9 : 1.0
+         contains(europ) = True             o_30 : u_30   =      1.9 : 1.0
+       contains(florenc) = True             u_30 : o_30   =      1.9 : 1.0
+         contains(cross) = True             o_30 : u_30   =      1.8 : 1.0
+          contains(drug) = True             u_30 : o_30   =      1.8 : 1.0
+          contains(issu) = True             o_30 : u_30   =      1.8 : 1.0
+          contains(goal) = True             u_30 : o_30   =      1.8 : 1.0
+         contains(share) = True             o_30 : u_30   =      1.8 : 1.0
+       contains(magazin) = True             o_30 : u_30   =      1.8 : 1.0
+          contains(area) = True             o_30 : u_30   =      1.8 : 1.0
+   contains(also realli) = True             u_30 : o_30   =      1.8 : 1.0
+          contains(mous) = True             u_30 : o_30   =      1.8 : 1.0
+        contains(eclect) = True             o_30 : u_30   =      1.8 : 1.0
+          contains(news) = True             o_30 : u_30   =      1.8 : 1.0
+     contains(spend lot) = True             o_30 : u_30   =      1.8 : 1.0
+           contains(fix) = True             o_30 : u_30   =      1.8 : 1.0
+          contains(funk) = True             o_30 : u_30   =      1.8 : 1.0
+       contains(anatomi) = True             u_30 : o_30   =      1.8 : 1.0
+           contains(bar) = True             o_30 : u_30   =      1.8 : 1.0
+          contains(seek) = True             o_30 : u_30   =      1.8 : 1.0
+         contains(queen) = True             u_30 : o_30   =      1.8 : 1.0
+         contains(junki) = True             o_30 : u_30   =      1.8 : 1.0
+       contains(qualiti) = True             o_30 : u_30   =      1.8 : 1.0
+           contains(die) = True             u_30 : o_30   =      1.8 : 1.0
+   contains(photographi) = True             o_30 : u_30   =      1.8 : 1.0
+         contains(forev) = True             u_30 : o_30   =      1.8 : 1.0
+     contains(last year) = True             o_30 : u_30   =      1.8 : 1.0
+   contains(mumford son) = True             u_30 : o_30   =      1.8 : 1.0
+        contains(famili) = True             u_30 : o_30   =      1.8 : 1.0
+       contains(monster) = True             u_30 : o_30   =      1.8 : 1.0
+        contains(boston) = True             u_30 : o_30   =      1.8 : 1.0
+     contains(black key) = True             u_30 : o_30   =      1.8 : 1.0
+       contains(impress) = True             o_30 : u_30   =      1.8 : 1.0
+      contains(year ago) = True             o_30 : u_30   =      1.8 : 1.0
+        contains(public) = True             o_30 : u_30   =      1.8 : 1.0
+         contains(salsa) = True             o_30 : u_30   =      1.8 : 1.0
+        contains(writer) = True             o_30 : u_30   =      1.8 : 1.0
+     contains(snowboard) = True             o_30 : u_30   =      1.8 : 1.0
+       contains(varieti) = True             o_30 : u_30   =      1.8 : 1.0
+     contains(galactica) = True             u_30 : o_30   =      1.8 : 1.0
+        contains(period) = True             o_30 : u_30   =      1.8 : 1.0
+          contains(grey) = True             u_30 : o_30   =      1.8 : 1.0
+         contains(sever) = True             o_30 : u_30   =      1.8 : 1.0
+      contains(sandwich) = True             u_30 : o_30   =      1.8 : 1.0
+     contains(bluegrass) = True             o_30 : u_30   =      1.8 : 1.0
+          contains(draw) = True             o_30 : u_30   =      1.8 : 1.0
+        contains(intern) = True             o_30 : u_30   =      1.8 : 1.0
+         contains(pixar) = True             u_30 : o_30   =      1.8 : 1.0
+          contains(rang) = True             o_30 : u_30   =      1.8 : 1.0
+     contains(palahniuk) = True             u_30 : o_30   =      1.8 : 1.0
+   contains(grad school) = True             o_30 : u_30   =      1.8 : 1.0
+        contains(depart) = True             u_30 : o_30   =      1.8 : 1.0
+           contains(wit) = True             o_30 : u_30   =      1.8 : 1.0
+         contains(vacat) = True             o_30 : u_30   =      1.8 : 1.0
+         contains(besid) = True             u_30 : o_30   =      1.8 : 1.0
+        contains(travel) = True             o_30 : u_30   =      1.8 : 1.0
+    contains(music tast) = True             o_30 : u_30   =      1.8 : 1.0
+       contains(outdoor) = True             o_30 : u_30   =      1.8 : 1.0
+contains(battlestar galactica) = True             u_30 : o_30   =      1.8 : 1.0
+        contains(festiv) = True             o_30 : u_30   =      1.8 : 1.0
+         contains(visit) = True             o_30 : u_30   =      1.8 : 1.0
+         contains(futur) = True             u_30 : o_30   =      1.8 : 1.0
+        contains(sensit) = True             o_30 : u_30   =      1.7 : 1.0
+        contains(sincer) = True             o_30 : u_30   =      1.7 : 1.0
+    contains(type music) = True             o_30 : u_30   =      1.7 : 1.0
+             contains(w) = True             o_30 : u_30   =      1.7 : 1.0
+          contains(camp) = True             o_30 : u_30   =      1.7 : 1.0
+         contains(smart) = True             o_30 : u_30   =      1.7 : 1.0
+    contains(fight club) = True             u_30 : o_30   =      1.7 : 1.0
+         contains(queer) = True             u_30 : o_30   =      1.7 : 1.0
+        contains(machin) = True             u_30 : o_30   =      1.7 : 1.0
+         contains(truli) = True             o_30 : u_30   =      1.7 : 1.0
+         contains(castl) = True             u_30 : o_30   =      1.7 : 1.0
+          contains(bone) = True             u_30 : o_30   =      1.7 : 1.0
+     contains(death cab) = True             u_30 : o_30   =      1.7 : 1.0
+     contains(long time) = True             o_30 : u_30   =      1.7 : 1.0
+         contains(chuck) = True             u_30 : o_30   =      1.7 : 1.0
+        contains(corpor) = True             o_30 : u_30   =      1.7 : 1.0
+        contains(discov) = True             o_30 : u_30   =      1.7 : 1.0
+         contains(drake) = True             u_30 : o_30   =      1.7 : 1.0
+        contains(depech) = True             o_30 : u_30   =      1.7 : 1.0
+             contains(v) = True             u_30 : o_30   =      1.7 : 1.0
+          contains(dude) = True             u_30 : o_30   =      1.7 : 1.0
+           contains(pay) = True             o_30 : u_30   =      1.7 : 1.0
+        contains(brazil) = True             o_30 : u_30   =      1.7 : 1.0
+          contains(gift) = True             o_30 : u_30   =      1.7 : 1.0
+          contains(wide) = True             o_30 : u_30   =      1.7 : 1.0
+ contains(famili friend) = True             u_30 : o_30   =      1.7 : 1.0
+         contains(peter) = True             o_30 : u_30   =      1.7 : 1.0
+       contains(eastern) = True             o_30 : u_30   =      1.7 : 1.0
+   contains(depech mode) = True             o_30 : u_30   =      1.7 : 1.0
+            contains(sf) = True             o_30 : u_30   =      1.7 : 1.0
+       contains(comfort) = True             o_30 : u_30   =      1.7 : 1.0
+         contains(cuddl) = True             u_30 : o_30   =      1.7 : 1.0
+   contains(thai indian) = True             o_30 : u_30   =      1.7 : 1.0
+          contains(muse) = True             u_30 : o_30   =      1.7 : 1.0
+ contains(friend famili) = True             o_30 : u_30   =      1.7 : 1.0
+    contains(thing love) = True             o_30 : u_30   =      1.7 : 1.0
+        contains(ground) = True             o_30 : u_30   =      1.7 : 1.0
+        contains(bright) = True             u_30 : o_30   =      1.7 : 1.0
+       contains(nirvana) = True             u_30 : o_30   =      1.7 : 1.0
+         contains(local) = True             o_30 : u_30   =      1.7 : 1.0
+          contains(bodi) = True             o_30 : u_30   =      1.7 : 1.0
+  contains(look forward) = True             o_30 : u_30   =      1.7 : 1.0
+         contains(loath) = True             u_30 : o_30   =      1.7 : 1.0
+        contains(toward) = True             o_30 : u_30   =      1.7 : 1.0
+         contains(ocean) = True             u_30 : o_30   =      1.7 : 1.0
+         contains(pride) = True             u_30 : o_30   =      1.7 : 1.0
+        contains(driven) = True             o_30 : u_30   =      1.7 : 1.0
+        contains(ambiti) = True             u_30 : o_30   =      1.7 : 1.0
+          contains(mode) = True             o_30 : u_30   =      1.7 : 1.0
+        contains(throne) = True             u_30 : o_30   =      1.7 : 1.0
+      contains(sherlock) = True             u_30 : o_30   =      1.7 : 1.0
+   contains(horror movi) = True             u_30 : o_30   =      1.7 : 1.0
+ contains(usual suspect) = True             o_30 : u_30   =      1.7 : 1.0
+  contains(good convers) = True             o_30 : u_30   =      1.7 : 1.0
+   contains(non fiction) = True             o_30 : u_30   =      1.7 : 1.0
+          contains(nick) = True             o_30 : u_30   =      1.7 : 1.0
+       contains(la vega) = True             u_30 : o_30   =      1.7 : 1.0
+         contains(fight) = True             u_30 : o_30   =      1.7 : 1.0
+          contains(grad) = True             o_30 : u_30   =      1.7 : 1.0
+        contains(materi) = True             u_30 : o_30   =      1.7 : 1.0
+        contains(inspir) = True             o_30 : u_30   =      1.7 : 1.0
+          contains(past) = True             o_30 : u_30   =      1.7 : 1.0
+       contains(cartoon) = True             u_30 : o_30   =      1.7 : 1.0
+       contains(suspect) = True             o_30 : u_30   =      1.7 : 1.0
+          contains(rais) = True             o_30 : u_30   =      1.7 : 1.0
+     contains(road trip) = True             o_30 : u_30   =      1.7 : 1.0
+         contains(blind) = True             u_30 : o_30   =      1.7 : 1.0
+    contains(soundtrack) = True             u_30 : o_30   =      1.7 : 1.0
+          contains(nice) = True             o_30 : u_30   =      1.7 : 1.0
+      contains(prejudic) = True             u_30 : o_30   =      1.7 : 1.0
+     contains(entertain) = True             o_30 : u_30   =      1.7 : 1.0
+       contains(avocado) = True             u_30 : o_30   =      1.7 : 1.0
+           contains(sky) = True             u_30 : o_30   =      1.7 : 1.0
+        contains(poetri) = True             o_30 : u_30   =      1.7 : 1.0
+          contains(game) = True             u_30 : o_30   =      1.7 : 1.0
+        contains(forget) = True             u_30 : o_30   =      1.7 : 1.0
+          contains(blow) = True             u_30 : o_30   =      1.7 : 1.0
+          contains(push) = True             u_30 : o_30   =      1.7 : 1.0
+       contains(express) = True             u_30 : o_30   =      1.7 : 1.0
+          contains(jump) = True             u_30 : o_30   =      1.7 : 1.0
+        contains(histor) = True             o_30 : u_30   =      1.7 : 1.0
+       contains(pumpkin) = True             u_30 : o_30   =      1.7 : 1.0
+      contains(bon iver) = True             u_30 : o_30   =      1.6 : 1.0
+        contains(london) = True             o_30 : u_30   =      1.6 : 1.0
+          contains(hill) = True             u_30 : o_30   =      1.6 : 1.0
+           contains(bed) = True             o_30 : u_30   =      1.6 : 1.0
+         contains(bring) = True             o_30 : u_30   =      1.6 : 1.0
+          contains(coen) = True             o_30 : u_30   =      1.6 : 1.0
+    contains(battlestar) = True             u_30 : o_30   =      1.6 : 1.0
+     contains(eat anyth) = True             u_30 : o_30   =      1.6 : 1.0
+      contains(seinfeld) = True             u_30 : o_30   =      1.6 : 1.0
+          contains(iver) = True             u_30 : o_30   =      1.6 : 1.0
+        contains(galaxi) = True             u_30 : o_30   =      1.6 : 1.0
+        contains(cuisin) = True             o_30 : u_30   =      1.6 : 1.0
+           contains(cab) = True             u_30 : o_30   =      1.6 : 1.0
+      contains(twilight) = True             u_30 : o_30   =      1.6 : 1.0
+          contains(bach) = True             o_30 : u_30   =      1.6 : 1.0
+          contains(seem) = True             o_30 : u_30   =      1.6 : 1.0
+         contains(death) = True             u_30 : o_30   =      1.6 : 1.0
+         contains(franc) = True             o_30 : u_30   =      1.6 : 1.0
+    contains(east coast) = True             o_30 : u_30   =      1.6 : 1.0
+          contains(hate) = True             u_30 : o_30   =      1.6 : 1.0
+         contains(comic) = True             u_30 : o_30   =      1.6 : 1.0
+          contains(fair) = True             o_30 : u_30   =      1.6 : 1.0
+      contains(new food) = True             u_30 : o_30   =      1.6 : 1.0
+             contains(z) = True             u_30 : o_30   =      1.6 : 1.0
+           contains(fox) = True             u_30 : o_30   =      1.6 : 1.0
+           contains(lie) = True             u_30 : o_30   =      1.6 : 1.0
+          contains(live) = True             o_30 : u_30   =      1.6 : 1.0
+        contains(bicycl) = True             o_30 : u_30   =      1.6 : 1.0
+          contains(self) = True             o_30 : u_30   =      1.6 : 1.0
+       contains(station) = True             o_30 : u_30   =      1.6 : 1.0
+     contains(break bad) = True             u_30 : o_30   =      1.6 : 1.0
+        contains(summer) = True             u_30 : o_30   =      1.6 : 1.0
+    contains(explor new) = True             o_30 : u_30   =      1.6 : 1.0
+          contains(nerd) = True             u_30 : o_30   =      1.6 : 1.0
+        contains(cinema) = True             o_30 : u_30   =      1.6 : 1.0
+     contains(regularli) = True             o_30 : u_30   =      1.6 : 1.0
+        contains(divers) = True             o_30 : u_30   =      1.6 : 1.0
+          contains(shin) = True             u_30 : o_30   =      1.6 : 1.0
+ contains(massiv attack) = True             o_30 : u_30   =      1.6 : 1.0
+   contains(woodi allen) = True             o_30 : u_30   =      1.6 : 1.0
+          contains(fave) = True             o_30 : u_30   =      1.6 : 1.0
+         contains(swing) = True             o_30 : u_30   =      1.6 : 1.0
+    contains(kind music) = True             o_30 : u_30   =      1.6 : 1.0
+           contains(non) = True             o_30 : u_30   =      1.6 : 1.0
+     contains(feel free) = True             u_30 : o_30   =      1.6 : 1.0
+         contains(media) = True             o_30 : u_30   =      1.6 : 1.0
+  contains(pulp fiction) = True             u_30 : o_30   =      1.6 : 1.0
+           contains(law) = True             u_30 : o_30   =      1.6 : 1.0
+          contains(mark) = True             o_30 : u_30   =      1.6 : 1.0
+       contains(element) = True             u_30 : o_30   =      1.6 : 1.0
+       contains(like go) = True             o_30 : u_30   =      1.6 : 1.0
+       contains(convers) = True             o_30 : u_30   =      1.6 : 1.0
+          contains(nina) = True             o_30 : u_30   =      1.6 : 1.0
+        contains(commit) = True             o_30 : u_30   =      1.6 : 1.0
+          contains(cute) = True             u_30 : o_30   =      1.6 : 1.0
+          contains(ladi) = True             u_30 : o_30   =      1.6 : 1.0
+          contains(hell) = True             u_30 : o_30   =      1.6 : 1.0
+          contains(film) = True             o_30 : u_30   =      1.6 : 1.0
+       contains(compani) = True             o_30 : u_30   =      1.6 : 1.0
+       contains(support) = True             o_30 : u_30   =      1.6 : 1.0
+     contains(like good) = True             o_30 : u_30   =      1.6 : 1.0
+   contains(hunger game) = True             u_30 : o_30   =      1.6 : 1.0
+     contains(labyrinth) = True             u_30 : o_30   =      1.6 : 1.0
+           contains(hot) = True             u_30 : o_30   =      1.6 : 1.0
+         contains(offer) = True             o_30 : u_30   =      1.6 : 1.0
+         contains(famou) = True             u_30 : o_30   =      1.6 : 1.0
+           contains(guy) = True             u_30 : o_30   =      1.6 : 1.0
+           contains(cup) = True             o_30 : u_30   =      1.6 : 1.0
+         contains(style) = True             o_30 : u_30   =      1.6 : 1.0
+         contains(excel) = True             o_30 : u_30   =      1.6 : 1.0
+       contains(restaur) = True             o_30 : u_30   =      1.6 : 1.0
+         contains(avoid) = True             o_30 : u_30   =      1.6 : 1.0
+         contains(grate) = True             o_30 : u_30   =      1.6 : 1.0
+       contains(librari) = True             o_30 : u_30   =      1.6 : 1.0
+         contains(video) = True             u_30 : o_30   =      1.6 : 1.0
+         contains(basic) = True             u_30 : o_30   =      1.6 : 1.0
+  contains(relationship) = True             o_30 : u_30   =      1.6 : 1.0
+     contains(mile davi) = True             o_30 : u_30   =      1.6 : 1.0
+         contains(tenni) = True             u_30 : o_30   =      1.6 : 1.0
+         contains(foodi) = True             o_30 : u_30   =      1.6 : 1.0
+          contains(adel) = True             u_30 : o_30   =      1.6 : 1.0
+          contains(anni) = True             o_30 : u_30   =      1.6 : 1.0
+          contains(valu) = True             o_30 : u_30   =      1.6 : 1.0
+       contains(mention) = True             o_30 : u_30   =      1.6 : 1.0
+           contains(ago) = True             o_30 : u_30   =      1.6 : 1.0
+        contains(guitar) = True             o_30 : u_30   =      1.6 : 1.0
+          contains(beck) = True             o_30 : u_30   =      1.6 : 1.0
+          contains(hair) = True             o_30 : u_30   =      1.6 : 1.0
+         contains(spent) = True             o_30 : u_30   =      1.6 : 1.0
+        contains(experi) = True             o_30 : u_30   =      1.6 : 1.0
+        contains(foster) = True             u_30 : o_30   =      1.6 : 1.0
+     contains(movi show) = True             u_30 : o_30   =      1.6 : 1.0
+      contains(midnight) = True             o_30 : u_30   =      1.6 : 1.0
+          contains(serv) = True             u_30 : o_30   =      1.6 : 1.0
+       contains(concert) = True             o_30 : u_30   =      1.6 : 1.0
+        contains(runner) = True             o_30 : u_30   =      1.6 : 1.0
+       contains(crystal) = True             u_30 : o_30   =      1.6 : 1.0
+         contains(woodi) = True             o_30 : u_30   =      1.6 : 1.0
+        contains(fascin) = True             o_30 : u_30   =      1.6 : 1.0
+       contains(go back) = True             o_30 : u_30   =      1.6 : 1.0
+         contains(manag) = True             o_30 : u_30   =      1.6 : 1.0
+          contains(milk) = True             u_30 : o_30   =      1.6 : 1.0
+       contains(fashion) = True             o_30 : u_30   =      1.6 : 1.0
+     contains(childhood) = True             u_30 : o_30   =      1.6 : 1.0
+  contains(love tri new) = True             u_30 : o_30   =      1.6 : 1.0
+         contains(super) = True             u_30 : o_30   =      1.6 : 1.0
+           contains(bay) = True             o_30 : u_30   =      1.6 : 1.0
+          contains(nine) = True             u_30 : o_30   =      1.6 : 1.0
+     contains(tri anyth) = True             u_30 : o_30   =      1.6 : 1.0
+          contains(walk) = True             u_30 : o_30   =      1.6 : 1.0
+        contains(modern) = True             u_30 : o_30   =      1.6 : 1.0
+       contains(whether) = True             o_30 : u_30   =      1.6 : 1.0
+    contains(vegetarian) = True             o_30 : u_30   =      1.6 : 1.0
+         contains(drawn) = True             o_30 : u_30   =      1.5 : 1.0
+        contains(french) = True             o_30 : u_30   =      1.5 : 1.0
+          contains(davi) = True             o_30 : u_30   =      1.5 : 1.0
+          contains(rose) = True             o_30 : u_30   =      1.5 : 1.0
+        contains(jersey) = True             u_30 : o_30   =      1.5 : 1.0
+        contains(health) = True             o_30 : u_30   =      1.5 : 1.0
+     contains(good food) = True             o_30 : u_30   =      1.5 : 1.0
+         contains(pasta) = True             u_30 : o_30   =      1.5 : 1.0
+

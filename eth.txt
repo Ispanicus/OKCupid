@@ -1,0 +1,502 @@
+Most Informative Features
+           contains(okc) = True            white : n-whit =     10.5 : 1.0
+       contains(summari) = True            white : n-whit =      4.3 : 1.0
+    contains(new experi) = True            white : n-whit =      4.3 : 1.0
+     contains(move back) = True            white : n-whit =      3.9 : 1.0
+        contains(korean) = True           n-whit : white  =      3.7 : 1.0
+      contains(backpack) = True            white : n-whit =      3.6 : 1.0
+contains(meet new peopl) = True           n-whit : white  =      3.6 : 1.0
+      contains(meet new) = True           n-whit : white  =      3.6 : 1.0
+     contains(take care) = True            white : n-whit =      3.5 : 1.0
+       contains(go movi) = True           n-whit : white  =      3.5 : 1.0
+         contains(grate) = True            white : n-whit =      3.2 : 1.0
+     contains(bluegrass) = True            white : n-whit =      3.1 : 1.0
+     contains(work hard) = True            white : n-whit =      3.1 : 1.0
+           contains(r b) = True           n-whit : white  =      3.0 : 1.0
+           contains(lol) = True           n-whit : white  =      2.9 : 1.0
+       contains(midwest) = True            white : n-whit =      2.8 : 1.0
+    contains(rock climb) = True           n-whit : white  =      2.8 : 1.0
+    contains(enjoy good) = True            white : n-whit =      2.7 : 1.0
+          contains(let ) = True           n-whit : white  =      2.7 : 1.0
+  contains(self summari) = True            white : n-whit =      2.7 : 1.0
+     contains(basketbal) = True           n-whit : white  =      2.7 : 1.0
+       contains(support) = True            white : n-whit =      2.6 : 1.0
+       contains(sarcasm) = True           n-whit : white  =      2.6 : 1.0
+      contains(read lot) = True            white : n-whit =      2.6 : 1.0
+       contains(mumford) = True            white : n-whit =      2.5 : 1.0
+      contains(berkeley) = True            white : n-whit =      2.5 : 1.0
+     contains(talk head) = True            white : n-whit =      2.4 : 1.0
+        contains(confid) = True            white : n-whit =      2.4 : 1.0
+         contains(salsa) = True           n-whit : white  =      2.4 : 1.0
+    contains(kind music) = True           n-whit : white  =      2.4 : 1.0
+         contains(franc) = True            white : n-whit =      2.3 : 1.0
+    contains(spend time) = True            white : n-whit =      2.3 : 1.0
+       contains(okcupid) = True            white : n-whit =      2.3 : 1.0
+         contains(loyal) = True           n-whit : white  =      2.3 : 1.0
+     contains(new peopl) = True           n-whit : white  =      2.3 : 1.0
+          contains(coen) = True            white : n-whit =      2.3 : 1.0
+    contains(new yorker) = True            white : n-whit =      2.3 : 1.0
+        contains(yorker) = True            white : n-whit =      2.3 : 1.0
+    contains(like think) = True            white : n-whit =      2.3 : 1.0
+  contains(love outdoor) = True            white : n-whit =      2.3 : 1.0
+           contains(ski) = True            white : n-whit =      2.3 : 1.0
+        contains(strive) = True           n-whit : white  =      2.3 : 1.0
+  contains(monti python) = True            white : n-whit =      2.3 : 1.0
+          contains(anni) = True            white : n-whit =      2.2 : 1.0
+        contains(python) = True            white : n-whit =      2.2 : 1.0
+          contains(laid) = True            white : n-whit =      2.2 : 1.0
+       contains(graduat) = True            white : n-whit =      2.2 : 1.0
+         contains(sharp) = True            white : n-whit =      2.2 : 1.0
+         contains(monti) = True            white : n-whit =      2.2 : 1.0
+    contains(thing like) = True            white : n-whit =      2.1 : 1.0
+       contains(terribl) = True            white : n-whit =      2.1 : 1.0
+      contains(frequent) = True            white : n-whit =      2.1 : 1.0
+          contains(dick) = True            white : n-whit =      2.1 : 1.0
+     contains(love life) = True            white : n-whit =      2.1 : 1.0
+       contains(spontan) = True            white : n-whit =      2.1 : 1.0
+   contains(mumford son) = True            white : n-whit =      2.1 : 1.0
+             contains(r) = True           n-whit : white  =      2.1 : 1.0
+        contains(expand) = True            white : n-whit =      2.1 : 1.0
+     contains(live life) = True           n-whit : white  =      2.1 : 1.0
+    contains(new friend) = True           n-whit : white  =      2.1 : 1.0
+          contains(kany) = True           n-whit : white  =      2.1 : 1.0
+        contains(hawaii) = True           n-whit : white  =      2.0 : 1.0
+        contains(deepli) = True            white : n-whit =      2.0 : 1.0
+        contains(magnet) = True            white : n-whit =      2.0 : 1.0
+         contains(cohen) = True            white : n-whit =      2.0 : 1.0
+   contains(woodi allen) = True            white : n-whit =      2.0 : 1.0
+      contains(lebowski) = True            white : n-whit =      2.0 : 1.0
+      contains(tom wait) = True            white : n-whit =      2.0 : 1.0
+             contains(b) = True           n-whit : white  =      2.0 : 1.0
+           contains(tom) = True            white : n-whit =      2.0 : 1.0
+          contains(shoe) = True            white : n-whit =      2.0 : 1.0
+      contains(like lot) = True            white : n-whit =      2.0 : 1.0
+      contains(big bang) = True           n-whit : white  =      2.0 : 1.0
+     contains(introvert) = True           n-whit : white  =      2.0 : 1.0
+     contains(steinbeck) = True            white : n-whit =      2.0 : 1.0
+  contains(big lebowski) = True            white : n-whit =      2.0 : 1.0
+         contains(woodi) = True            white : n-whit =      2.0 : 1.0
+   contains(bang theori) = True           n-whit : white  =      1.9 : 1.0
+contains(big bang theori) = True           n-whit : white  =      1.9 : 1.0
+     contains(love make) = True            white : n-whit =      1.9 : 1.0
+        contains(nearli) = True            white : n-whit =      1.9 : 1.0
+  contains(classic rock) = True            white : n-whit =      1.9 : 1.0
+         contains(spent) = True            white : n-whit =      1.9 : 1.0
+             contains( ) = True            white : n-whit =      1.9 : 1.0
+        contains(farmer) = True            white : n-whit =      1.9 : 1.0
+          contains(larg) = True            white : n-whit =      1.9 : 1.0
+          contains(surf) = True            white : n-whit =      1.9 : 1.0
+       contains(leonard) = True            white : n-whit =      1.9 : 1.0
+       contains(attempt) = True            white : n-whit =      1.9 : 1.0
+          contains(crow) = True            white : n-whit =      1.9 : 1.0
+          contains(haha) = True           n-whit : white  =      1.9 : 1.0
+         contains(europ) = True            white : n-whit =      1.9 : 1.0
+           contains(npr) = True            white : n-whit =      1.9 : 1.0
+      contains(slightli) = True            white : n-whit =      1.9 : 1.0
+       contains(awkward) = True           n-whit : white  =      1.9 : 1.0
+          contains(iver) = True            white : n-whit =      1.9 : 1.0
+          contains(peak) = True            white : n-whit =      1.9 : 1.0
+      contains(bon iver) = True            white : n-whit =      1.9 : 1.0
+       contains(japanes) = True           n-whit : white  =      1.9 : 1.0
+         contains(excit) = True            white : n-whit =      1.9 : 1.0
+        contains(histor) = True            white : n-whit =      1.9 : 1.0
+ contains(kurt vonnegut) = True            white : n-whit =      1.9 : 1.0
+         contains(color) = True           n-whit : white  =      1.9 : 1.0
+        contains(genuin) = True            white : n-whit =      1.9 : 1.0
+            contains(ca) = True            white : n-whit =      1.9 : 1.0
+       contains(energet) = True            white : n-whit =      1.9 : 1.0
+      contains(east bay) = True            white : n-whit =      1.9 : 1.0
+        contains(integr) = True            white : n-whit =      1.9 : 1.0
+       contains(describ) = True            white : n-whit =      1.9 : 1.0
+    contains(mani thing) = True            white : n-whit =      1.9 : 1.0
+         contains(often) = True            white : n-whit =      1.9 : 1.0
+           contains(bar) = True            white : n-whit =      1.8 : 1.0
+         contains(older) = True            white : n-whit =      1.8 : 1.0
+       contains(creativ) = True            white : n-whit =      1.8 : 1.0
+      contains(anderson) = True            white : n-whit =      1.8 : 1.0
+     contains(last year) = True            white : n-whit =      1.8 : 1.0
+          contains(wine) = True            white : n-whit =      1.8 : 1.0
+    contains(roll stone) = True            white : n-whit =      1.8 : 1.0
+          contains(kurt) = True            white : n-whit =      1.8 : 1.0
+         contains(veggi) = True            white : n-whit =      1.8 : 1.0
+     contains(christoph) = True            white : n-whit =      1.8 : 1.0
+     contains(love good) = True            white : n-whit =      1.8 : 1.0
+         contains(veget) = True            white : n-whit =      1.8 : 1.0
+       contains(express) = True           n-whit : white  =      1.8 : 1.0
+          contains(beck) = True            white : n-whit =      1.8 : 1.0
+        contains(market) = True            white : n-whit =      1.8 : 1.0
+       contains(netflix) = True            white : n-whit =      1.8 : 1.0
+         contains(flame) = True            white : n-whit =      1.8 : 1.0
+         contains(known) = True            white : n-whit =      1.8 : 1.0
+        contains(strang) = True            white : n-whit =      1.8 : 1.0
+     contains(like cook) = True            white : n-whit =      1.8 : 1.0
+       contains(respons) = True            white : n-whit =      1.8 : 1.0
+        contains(career) = True            white : n-whit =      1.8 : 1.0
+        contains(steven) = True            white : n-whit =      1.8 : 1.0
+          contains(seem) = True            white : n-whit =      1.8 : 1.0
+        contains(dinner) = True            white : n-whit =      1.8 : 1.0
+      contains(vonnegut) = True            white : n-whit =      1.8 : 1.0
+    contains(live music) = True            white : n-whit =      1.8 : 1.0
+       contains(station) = True            white : n-whit =      1.8 : 1.0
+     contains(love live) = True            white : n-whit =      1.8 : 1.0
+     contains(iron wine) = True            white : n-whit =      1.8 : 1.0
+ contains(san francisco) = True            white : n-whit =      1.8 : 1.0
+         contains(store) = True            white : n-whit =      1.8 : 1.0
+         contains(nerdi) = True            white : n-whit =      1.8 : 1.0
+          contains(bach) = True            white : n-whit =      1.8 : 1.0
+        contains(physic) = True            white : n-whit =      1.8 : 1.0
+    contains(constantli) = True            white : n-whit =      1.8 : 1.0
+         contains(local) = True            white : n-whit =      1.8 : 1.0
+            contains(lo) = True           n-whit : white  =      1.8 : 1.0
+        contains(situat) = True            white : n-whit =      1.8 : 1.0
+        contains(potato) = True            white : n-whit =      1.8 : 1.0
+          contains(hill) = True           n-whit : white  =      1.7 : 1.0
+       contains(hip hop) = True           n-whit : white  =      1.7 : 1.0
+   contains(johnni cash) = True            white : n-whit =      1.7 : 1.0
+   contains(non fiction) = True            white : n-whit =      1.7 : 1.0
+         contains(spend) = True            white : n-whit =      1.7 : 1.0
+   contains(dark knight) = True           n-whit : white  =      1.7 : 1.0
+         contains(dylan) = True            white : n-whit =      1.7 : 1.0
+    contains(music tast) = True            white : n-whit =      1.7 : 1.0
+           contains(bon) = True            white : n-whit =      1.7 : 1.0
+          contains(main) = True            white : n-whit =      1.7 : 1.0
+     contains(everi day) = True            white : n-whit =      1.7 : 1.0
+   contains(good friend) = True            white : n-whit =      1.7 : 1.0
+         contains(organ) = True            white : n-whit =      1.7 : 1.0
+           contains(hip) = True           n-whit : white  =      1.7 : 1.0
+         contains(hello) = True           n-whit : white  =      1.7 : 1.0
+           contains(hop) = True           n-whit : white  =      1.7 : 1.0
+         contains(vacat) = True            white : n-whit =      1.7 : 1.0
+    contains(california) = True            white : n-whit =      1.7 : 1.0
+         contains(tough) = True            white : n-whit =      1.7 : 1.0
+         contains(silli) = True            white : n-whit =      1.7 : 1.0
+       contains(go back) = True            white : n-whit =      1.7 : 1.0
+        contains(incept) = True           n-whit : white  =      1.7 : 1.0
+          contains(quit) = True            white : n-whit =      1.7 : 1.0
+        contains(knight) = True           n-whit : white  =      1.7 : 1.0
+           contains(pho) = True           n-whit : white  =      1.7 : 1.0
+          contains(wire) = True            white : n-whit =      1.7 : 1.0
+          contains(ador) = True            white : n-whit =      1.7 : 1.0
+     contains(alchemist) = True           n-whit : white  =      1.7 : 1.0
+           contains(six) = True            white : n-whit =      1.7 : 1.0
+        contains(requir) = True            white : n-whit =      1.7 : 1.0
+          contains(cabl) = True            white : n-whit =      1.7 : 1.0
+          contains(wear) = True           n-whit : white  =      1.7 : 1.0
+           contains(lil) = True           n-whit : white  =      1.7 : 1.0
+         contains(jay z) = True           n-whit : white  =      1.7 : 1.0
+           contains(fox) = True            white : n-whit =      1.7 : 1.0
+          contains(curb) = True            white : n-whit =      1.7 : 1.0
+          contains(send) = True            white : n-whit =      1.7 : 1.0
+          contains(wing) = True            white : n-whit =      1.7 : 1.0
+           contains(jay) = True           n-whit : white  =      1.7 : 1.0
+        contains(legend) = True           n-whit : white  =      1.7 : 1.0
+   contains(love travel) = True            white : n-whit =      1.7 : 1.0
+        contains(produc) = True            white : n-whit =      1.7 : 1.0
+       contains(avocado) = True            white : n-whit =      1.7 : 1.0
+         contains(latin) = True           n-whit : white  =      1.7 : 1.0
+           contains(non) = True            white : n-whit =      1.7 : 1.0
+       contains(spanish) = True           n-whit : white  =      1.7 : 1.0
+        contains(chines) = True           n-whit : white  =      1.7 : 1.0
+          contains(bowi) = True            white : n-whit =      1.7 : 1.0
+     contains(long time) = True            white : n-whit =      1.7 : 1.0
+          contains(rais) = True            white : n-whit =      1.7 : 1.0
+           contains(buy) = True            white : n-whit =      1.7 : 1.0
+       contains(subject) = True            white : n-whit =      1.7 : 1.0
+       contains(anatomi) = True           n-whit : white  =      1.7 : 1.0
+          contains(bang) = True           n-whit : white  =      1.7 : 1.0
+        contains(involv) = True            white : n-whit =      1.7 : 1.0
+        contains(andrew) = True            white : n-whit =      1.7 : 1.0
+         contains(bread) = True            white : n-whit =      1.7 : 1.0
+    contains(david bowi) = True            white : n-whit =      1.7 : 1.0
+        contains(season) = True            white : n-whit =      1.7 : 1.0
+          contains(seen) = True            white : n-whit =      1.7 : 1.0
+          contains(neil) = True            white : n-whit =      1.7 : 1.0
+       contains(impress) = True            white : n-whit =      1.7 : 1.0
+  contains(particularli) = True            white : n-whit =      1.7 : 1.0
+           contains(cut) = True            white : n-whit =      1.7 : 1.0
+          contains(dude) = True            white : n-whit =      1.7 : 1.0
+        contains(edward) = True            white : n-whit =      1.7 : 1.0
+           contains(met) = True           n-whit : white  =      1.6 : 1.0
+        contains(quirki) = True            white : n-whit =      1.6 : 1.0
+          contains(bore) = True            white : n-whit =      1.6 : 1.0
+         contains(hotel) = True            white : n-whit =      1.6 : 1.0
+          contains(zero) = True            white : n-whit =      1.6 : 1.0
+          contains(hors) = True            white : n-whit =      1.6 : 1.0
+        contains(theori) = True           n-whit : white  =      1.6 : 1.0
+       contains(success) = True            white : n-whit =      1.6 : 1.0
+         contains(level) = True            white : n-whit =      1.6 : 1.0
+       contains(podcast) = True            white : n-whit =      1.6 : 1.0
+         contains(might) = True            white : n-whit =      1.6 : 1.0
+    contains(enthusiasm) = True            white : n-whit =      1.6 : 1.0
+        contains(seriou) = True            white : n-whit =      1.6 : 1.0
+          contains(hall) = True            white : n-whit =      1.6 : 1.0
+         contains(recip) = True            white : n-whit =      1.6 : 1.0
+   contains(also realli) = True            white : n-whit =      1.6 : 1.0
+          contains(dont) = True           n-whit : white  =      1.6 : 1.0
+         contains(engin) = True            white : n-whit =      1.6 : 1.0
+        contains(mother) = True           n-whit : white  =      1.6 : 1.0
+ contains(american life) = True            white : n-whit =      1.6 : 1.0
+            contains(ny) = True            white : n-whit =      1.6 : 1.0
+         contains(simpl) = True            white : n-whit =      1.6 : 1.0
+         contains(asian) = True           n-whit : white  =      1.6 : 1.0
+          contains(cash) = True            white : n-whit =      1.6 : 1.0
+            contains(el) = True           n-whit : white  =      1.6 : 1.0
+       contains(richard) = True            white : n-whit =      1.6 : 1.0
+       contains(instead) = True            white : n-whit =      1.6 : 1.0
+         contains(peter) = True            white : n-whit =      1.6 : 1.0
+contains(american beauti) = True            white : n-whit =      1.6 : 1.0
+          contains(fond) = True            white : n-whit =      1.6 : 1.0
+         contains(media) = True            white : n-whit =      1.6 : 1.0
+     contains(time read) = True            white : n-whit =      1.6 : 1.0
+ contains(favorit thing) = True            white : n-whit =      1.6 : 1.0
+         contains(terri) = True            white : n-whit =      1.6 : 1.0
+         contains(album) = True            white : n-whit =      1.6 : 1.0
+      contains(live san) = True           n-whit : white  =      1.6 : 1.0
+     contains(like meet) = True           n-whit : white  =      1.6 : 1.0
+          contains(oldi) = True           n-whit : white  =      1.6 : 1.0
+     contains(mani list) = True           n-whit : white  =      1.6 : 1.0
+      contains(love eat) = True           n-whit : white  =      1.6 : 1.0
+      contains(fun love) = True           n-whit : white  =      1.6 : 1.0
+ contains(famili friend) = True           n-whit : white  =      1.6 : 1.0
+     contains(time like) = True           n-whit : white  =      1.6 : 1.0
+          contains(oliv) = True            white : n-whit =      1.6 : 1.0
+        contains(balanc) = True            white : n-whit =      1.6 : 1.0
+         contains(life ) = True            white : n-whit =      1.6 : 1.0
+     contains(laid back) = True            white : n-whit =      1.6 : 1.0
+           contains(van) = True            white : n-whit =      1.6 : 1.0
+     contains(kill bill) = True           n-whit : white  =      1.6 : 1.0
+         contains(salad) = True            white : n-whit =      1.6 : 1.0
+         contains(tranc) = True           n-whit : white  =      1.6 : 1.0
+          contains(dave) = True            white : n-whit =      1.6 : 1.0
+          contains(wait) = True            white : n-whit =      1.6 : 1.0
+          contains(wide) = True            white : n-whit =      1.6 : 1.0
+       contains(healthi) = True            white : n-whit =      1.6 : 1.0
+     contains(francisco) = True            white : n-whit =      1.6 : 1.0
+       contains(nonfict) = True            white : n-whit =      1.6 : 1.0
+          contains(vari) = True            white : n-whit =      1.6 : 1.0
+         contains(visit) = True            white : n-whit =      1.6 : 1.0
+           contains(see) = True            white : n-whit =      1.6 : 1.0
+   contains(realli love) = True            white : n-whit =      1.6 : 1.0
+     contains(bob dylan) = True            white : n-whit =      1.6 : 1.0
+      contains(six feet) = True            white : n-whit =      1.6 : 1.0
+        contains(despit) = True            white : n-whit =      1.6 : 1.0
+         contains(stone) = True            white : n-whit =      1.6 : 1.0
+        contains(recent) = True            white : n-whit =      1.6 : 1.0
+          contains(folk) = True            white : n-whit =      1.6 : 1.0
+        contains(prepar) = True            white : n-whit =      1.6 : 1.0
+          contains(nick) = True            white : n-whit =      1.6 : 1.0
+         contains(share) = True            white : n-whit =      1.6 : 1.0
+           contains(add) = True            white : n-whit =      1.6 : 1.0
+         contains(dirti) = True            white : n-whit =      1.6 : 1.0
+          contains(bibl) = True           n-whit : white  =      1.6 : 1.0
+          contains(hike) = True            white : n-whit =      1.6 : 1.0
+          contains(head) = True            white : n-whit =      1.6 : 1.0
+       contains(pandora) = True            white : n-whit =      1.6 : 1.0
+        contains(brazil) = True            white : n-whit =      1.6 : 1.0
+          contains(feet) = True            white : n-whit =      1.6 : 1.0
+         contains(opera) = True            white : n-whit =      1.6 : 1.0
+contains(learn new thing) = True            white : n-whit =      1.6 : 1.0
+        contains(german) = True            white : n-whit =      1.6 : 1.0
+      contains(zeppelin) = True            white : n-whit =      1.6 : 1.0
+         contains(field) = True            white : n-whit =      1.6 : 1.0
+        contains(beyond) = True            white : n-whit =      1.6 : 1.0
+        contains(flight) = True            white : n-whit =      1.6 : 1.0
+       contains(alreadi) = True            white : n-whit =      1.6 : 1.0
+        contains(reserv) = True           n-whit : white  =      1.6 : 1.0
+             contains(x) = True           n-whit : white  =      1.6 : 1.0
+         contains(escap) = True            white : n-whit =      1.6 : 1.0
+  contains(led zeppelin) = True            white : n-whit =      1.6 : 1.0
+       contains(theater) = True            white : n-whit =      1.6 : 1.0
+            contains(sf) = True            white : n-whit =      1.6 : 1.0
+           contains(use) = True            white : n-whit =      1.6 : 1.0
+contains(pride prejudic) = True           n-whit : white  =      1.6 : 1.0
+          contains(morn) = True            white : n-whit =      1.6 : 1.0
+            contains(ok) = True            white : n-whit =      1.6 : 1.0
+            contains(im) = True           n-whit : white  =      1.6 : 1.0
+           contains(lip) = True            white : n-whit =      1.6 : 1.0
+       contains(varieti) = True            white : n-whit =      1.6 : 1.0
+        contains(tomato) = True            white : n-whit =      1.6 : 1.0
+          contains(sail) = True            white : n-whit =      1.6 : 1.0
+           contains(son) = True            white : n-whit =      1.6 : 1.0
+         contains(river) = True            white : n-whit =      1.6 : 1.0
+          contains(gump) = True           n-whit : white  =      1.6 : 1.0
+         contains(desir) = True            white : n-whit =      1.6 : 1.0
+       contains(william) = True            white : n-whit =      1.6 : 1.0
+         contains(buffi) = True            white : n-whit =      1.6 : 1.0
+    contains(vegetarian) = True            white : n-whit =      1.6 : 1.0
+      contains(categori) = True            white : n-whit =      1.6 : 1.0
+        contains(rather) = True            white : n-whit =      1.6 : 1.0
+        contains(johnni) = True            white : n-whit =      1.6 : 1.0
+      contains(otherwis) = True            white : n-whit =      1.5 : 1.0
+         contains(chees) = True            white : n-whit =      1.5 : 1.0
+   contains(modest mous) = True            white : n-whit =      1.5 : 1.0
+          contains(roll) = True            white : n-whit =      1.5 : 1.0
+         contains(glass) = True            white : n-whit =      1.5 : 1.0
+     contains(love cook) = True            white : n-whit =      1.5 : 1.0
+        contains(fairli) = True            white : n-whit =      1.5 : 1.0
+          contains(soon) = True            white : n-whit =      1.5 : 1.0
+        contains(robert) = True            white : n-whit =      1.5 : 1.0
+         contains(thoma) = True            white : n-whit =      1.5 : 1.0
+             contains(u) = True           n-whit : white  =      1.5 : 1.0
+         contains(ocean) = True           n-whit : white  =      1.5 : 1.0
+          contains(fair) = True            white : n-whit =      1.5 : 1.0
+       contains(brother) = True            white : n-whit =      1.5 : 1.0
+        contains(bicycl) = True            white : n-whit =      1.5 : 1.0
+          contains(went) = True            white : n-whit =      1.5 : 1.0
+         contains(avoid) = True            white : n-whit =      1.5 : 1.0
+     contains(tenenbaum) = True            white : n-whit =      1.5 : 1.0
+        contains(welcom) = True            white : n-whit =      1.5 : 1.0
+         contains(occas) = True            white : n-whit =      1.5 : 1.0
+         contains(drake) = True           n-whit : white  =      1.5 : 1.0
+        contains(martin) = True            white : n-whit =      1.5 : 1.0
+         contains(polit) = True            white : n-whit =      1.5 : 1.0
+          contains(tend) = True            white : n-whit =      1.5 : 1.0
+        contains(longer) = True            white : n-whit =      1.5 : 1.0
+contains(royal tenenbaum) = True            white : n-whit =      1.5 : 1.0
+          contains(hold) = True            white : n-whit =      1.5 : 1.0
+        contains(modest) = True            white : n-whit =      1.5 : 1.0
+          contains(rest) = True            white : n-whit =      1.5 : 1.0
+       contains(librari) = True            white : n-whit =      1.5 : 1.0
+        contains(sedari) = True            white : n-whit =      1.5 : 1.0
+     contains(movi love) = True           n-whit : white  =      1.5 : 1.0
+        contains(fascin) = True            white : n-whit =      1.5 : 1.0
+         contains(earli) = True            white : n-whit =      1.5 : 1.0
+     contains(like make) = True            white : n-whit =      1.5 : 1.0
+        contains(confus) = True            white : n-whit =      1.5 : 1.0
+           contains(saw) = True            white : n-whit =      1.5 : 1.0
+      contains(find new) = True            white : n-whit =      1.5 : 1.0
+          contains(seek) = True            white : n-whit =      1.5 : 1.0
+        contains(disney) = True           n-whit : white  =      1.5 : 1.0
+         contains(figur) = True            white : n-whit =      1.5 : 1.0
+         contains(young) = True            white : n-whit =      1.5 : 1.0
+         contains(pearl) = True            white : n-whit =      1.5 : 1.0
+          contains(meat) = True            white : n-whit =      1.5 : 1.0
+    contains(philosophi) = True            white : n-whit =      1.5 : 1.0
+       contains(florenc) = True            white : n-whit =      1.5 : 1.0
+  contains(david sedari) = True            white : n-whit =      1.5 : 1.0
+contains(princess bride) = True            white : n-whit =      1.5 : 1.0
+         contains(crowd) = True            white : n-whit =      1.5 : 1.0
+          contains(soul) = True           n-whit : white  =      1.5 : 1.0
+         contains(allen) = True            white : n-whit =      1.5 : 1.0
+        contains(simpli) = True            white : n-whit =      1.5 : 1.0
+        contains(import) = True            white : n-whit =      1.5 : 1.0
+           contains(box) = True            white : n-whit =      1.5 : 1.0
+         contains(updat) = True            white : n-whit =      1.5 : 1.0
+          contains(week) = True            white : n-whit =      1.5 : 1.0
+          contains(less) = True            white : n-whit =      1.5 : 1.0
+          contains(tune) = True            white : n-whit =      1.5 : 1.0
+     contains(difficult) = True            white : n-whit =      1.5 : 1.0
+       contains(perform) = True            white : n-whit =      1.5 : 1.0
+     contains(watch lot) = True            white : n-whit =      1.5 : 1.0
+     contains(life love) = True            white : n-whit =      1.5 : 1.0
+     contains(regularli) = True            white : n-whit =      1.5 : 1.0
+         contains(becom) = True            white : n-whit =      1.5 : 1.0
+       contains(section) = True            white : n-whit =      1.5 : 1.0
+    contains(alway look) = True            white : n-whit =      1.5 : 1.0
+       contains(similar) = True            white : n-whit =      1.5 : 1.0
+         contains(found) = True            white : n-whit =      1.5 : 1.0
+          contains(cycl) = True            white : n-whit =      1.5 : 1.0
+      contains(marathon) = True            white : n-whit =      1.5 : 1.0
+        contains(memori) = True            white : n-whit =      1.5 : 1.0
+      contains(competit) = True            white : n-whit =      1.5 : 1.0
+          contains(live) = True            white : n-whit =      1.5 : 1.0
+         contains(close) = True            white : n-whit =      1.5 : 1.0
+        contains(especi) = True            white : n-whit =      1.5 : 1.0
+         contains(anyon) = True            white : n-whit =      1.5 : 1.0
+        contains(toward) = True            white : n-whit =      1.5 : 1.0
+        contains(discov) = True            white : n-whit =      1.5 : 1.0
+          contains(draw) = True            white : n-whit =      1.5 : 1.0
+       contains(written) = True            white : n-whit =      1.5 : 1.0
+       contains(love go) = True            white : n-whit =      1.5 : 1.0
+  contains(blade runner) = True            white : n-whit =      1.5 : 1.0
+          contains(tire) = True            white : n-whit =      1.5 : 1.0
+        contains(harold) = True            white : n-whit =      1.5 : 1.0
+         contains(geeki) = True            white : n-whit =      1.5 : 1.0
+           contains(hey) = True           n-whit : white  =      1.5 : 1.0
+          contains(wast) = True            white : n-whit =      1.5 : 1.0
+             contains(j) = True           n-whit : white  =      1.5 : 1.0
+  contains(good convers) = True           n-whit : white  =      1.5 : 1.0
+      contains(twilight) = True           n-whit : white  =      1.5 : 1.0
+          contains(mark) = True            white : n-whit =      1.5 : 1.0
+         contains(adult) = True            white : n-whit =      1.5 : 1.0
+           contains(nyc) = True            white : n-whit =      1.5 : 1.0
+       contains(spiritu) = True            white : n-whit =      1.5 : 1.0
+        contains(batman) = True           n-whit : white  =      1.5 : 1.0
+         contains(major) = True            white : n-whit =      1.5 : 1.0
+          contains(born) = True            white : n-whit =      1.5 : 1.0
+         contains(scari) = True           n-whit : white  =      1.5 : 1.0
+         contains(focus) = True            white : n-whit =      1.5 : 1.0
+         contains(sever) = True            white : n-whit =      1.5 : 1.0
+   contains(realli like) = True            white : n-whit =      1.5 : 1.0
+           contains(ago) = True            white : n-whit =      1.5 : 1.0
+       contains(weather) = True            white : n-whit =      1.5 : 1.0
+         contains(brian) = True            white : n-whit =      1.5 : 1.0
+        contains(detail) = True            white : n-whit =      1.5 : 1.0
+        contains(incred) = True            white : n-whit =      1.5 : 1.0
+    contains(understand) = True            white : n-whit =      1.5 : 1.0
+         contains(fresh) = True            white : n-whit =      1.5 : 1.0
+          contains(twin) = True            white : n-whit =      1.5 : 1.0
+  contains(relationship) = True            white : n-whit =      1.5 : 1.0
+        contains(extrem) = True            white : n-whit =      1.5 : 1.0
+          contains(kite) = True           n-whit : white  =      1.5 : 1.0
+     contains(get along) = True            white : n-whit =      1.5 : 1.0
+          contains(site) = True            white : n-whit =      1.5 : 1.0
+       contains(exercis) = True            white : n-whit =      1.5 : 1.0
+         contains(diari) = True           n-whit : white  =      1.5 : 1.0
+         contains(gonna) = True           n-whit : white  =      1.5 : 1.0
+         contains(throw) = True            white : n-whit =      1.5 : 1.0
+     contains(also love) = True            white : n-whit =      1.5 : 1.0
+        contains(festiv) = True            white : n-whit =      1.5 : 1.0
+        contains(obsess) = True            white : n-whit =      1.5 : 1.0
+         contains(vegan) = True            white : n-whit =      1.5 : 1.0
+    contains(enthusiast) = True            white : n-whit =      1.5 : 1.0
+      contains(question) = True            white : n-whit =      1.5 : 1.0
+          contains(glee) = True           n-whit : white  =      1.5 : 1.0
+         contains(among) = True            white : n-whit =      1.5 : 1.0
+         contains(typic) = True            white : n-whit =      1.5 : 1.0
+         contains(charl) = True            white : n-whit =      1.5 : 1.0
+          contains(issu) = True            white : n-whit =      1.5 : 1.0
+         contains(wrong) = True            white : n-whit =      1.5 : 1.0
+      contains(year ago) = True            white : n-whit =      1.5 : 1.0
+        contains(avatar) = True           n-whit : white  =      1.5 : 1.0
+         contains(group) = True            white : n-whit =      1.5 : 1.0
+     contains(law order) = True           n-whit : white  =      1.5 : 1.0
+        contains(chocol) = True            white : n-whit =      1.5 : 1.0
+          contains(hear) = True            white : n-whit =      1.5 : 1.0
+        contains(jersey) = True           n-whit : white  =      1.4 : 1.0
+          contains(wise) = True            white : n-whit =      1.4 : 1.0
+           contains(law) = True           n-whit : white  =      1.4 : 1.0
+           contains(ray) = True            white : n-whit =      1.4 : 1.0
+          contains(paul) = True            white : n-whit =      1.4 : 1.0
+       contains(weekend) = True            white : n-whit =      1.4 : 1.0
+          contains(grey) = True           n-whit : white  =      1.4 : 1.0
+     contains(feel free) = True           n-whit : white  =      1.4 : 1.0
+   contains(meet someon) = True           n-whit : white  =      1.4 : 1.0
+         contains(fruit) = True            white : n-whit =      1.4 : 1.0
+   contains(like travel) = True            white : n-whit =      1.4 : 1.0
+       contains(opinion) = True            white : n-whit =      1.4 : 1.0
+        contains(sunday) = True            white : n-whit =      1.4 : 1.0
+           contains(sum) = True           n-whit : white  =      1.4 : 1.0
+          contains(came) = True            white : n-whit =      1.4 : 1.0
+     contains(biographi) = True            white : n-whit =      1.4 : 1.0
+      contains(occasion) = True            white : n-whit =      1.4 : 1.0
+         contains(humor) = True            white : n-whit =      1.4 : 1.0
+        contains(gotten) = True            white : n-whit =      1.4 : 1.0
+          contains(east) = True            white : n-whit =      1.4 : 1.0
+         contains(exist) = True            white : n-whit =      1.4 : 1.0
+         contains(uniqu) = True            white : n-whit =      1.4 : 1.0
+          contains(pixi) = True            white : n-whit =      1.4 : 1.0
+           contains(led) = True            white : n-whit =      1.4 : 1.0
+         contains(bride) = True            white : n-whit =      1.4 : 1.0
+        contains(record) = True            white : n-whit =      1.4 : 1.0
+     contains(like good) = True            white : n-whit =      1.4 : 1.0
+       contains(partner) = True            white : n-whit =      1.4 : 1.0
+           contains(dig) = True            white : n-whit =      1.4 : 1.0
+         contains(topic) = True            white : n-whit =      1.4 : 1.0
+contains(favorit author) = True            white : n-whit =      1.4 : 1.0
+        contains(common) = True           n-whit : white  =      1.4 : 1.0
+          contains(leav) = True            white : n-whit =      1.4 : 1.0
+          contains(awar) = True            white : n-whit =      1.4 : 1.0
+     contains(palahniuk) = True            white : n-whit =      1.4 : 1.0
+       contains(suggest) = True            white : n-whit =      1.4 : 1.0
+
