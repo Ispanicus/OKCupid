@@ -1,0 +1,13 @@
+Naive Bayes accuracy percent: 66.16454229432213
+Naive Bayes accuracy percent: 66.36732329084587
+Naive Bayes accuracy percent: 59.35689455388181
+Intersection sex-age: {('contains(dark knight)', True), ('contains(love live)', True), ('contains(love explor)', True), ('contains(love outdoor)', True), ('contains(laid back)', True), ('contains(kind food)', True), ('contains(blade runner)', True), ('contains(futurama)', True), ('contains(find someon)', True), ('contains(listen music)', True), ('contains(video game)', True), ('contains(fun love)', True), ('contains(volunt)', True), ('contains(new girl)', True), ('contains(strive)', True), ('contains(south park)', True), ('contains(love travel)', True), ('contains(knight)', True), ('contains(archer)', True), ('contains(recent move)', True), ('contains(farmer)', True)}
+Intersection et-age: {('contains(enjoy good)', True), ('contains(new experi)', True), ('contains(deepli)', True), ('contains(love outdoor)', True), ('contains(haha)', True), ('contains(okc)', True), ('contains(leonard)', True), ('contains(loyal)', True), ('contains(yorker)', True), ('contains(ski)', True), ('contains(strive)', True), ('contains(berkeley)', True), ('contains(new yorker)', True), ('contains(cohen)', True), ('contains(rock climb)', True), ('contains(backpack)', True), ('contains(kany)', True), ('contains(self summari)', True), ('contains(farmer)', True)}
+Intersection sex-et: {('contains(kind music)', True), ('contains(meet new peopl)', True), ('contains(laid)', True), ('contains(sarcasm)', True), ('contains(new peopl)', True), ('contains(dick)', True), ('contains(go movi)', True), ('contains(take care)', True), ('contains(strive)', True), ('contains(love outdoor)', True), ('contains(midwest)', True), ('contains(okcupid)', True), ('contains(move back)', True), ('contains(salsa)', True), ('contains(farmer)', True), ('contains(meet new)', True)}
+Intersection all: {('contains(farmer)', True), ('contains(strive)', True), ('contains(love outdoor)', True)}
+
+Love outdoor: white females over 30 : non-white males under 30 = 34.04 : 1.0
+Farmer: white females over 30 : non-white males under 30 = 15.43 : 1.0
+Dark knight: males under 30 : females over 30 = 10.08 : 1.0
+Sarcasm: non-white female : white male = 5.46 : 1.0
+Dick: white male : non-white female = 4.83 : 1.0

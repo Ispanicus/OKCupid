@@ -1,0 +1,502 @@
+Most Informative Features
+contains(pride prejudic) = True                f : m      =     11.7 : 1.0
+      contains(prejudic) = True                f : m      =      6.7 : 1.0
+         contains(engin) = True                m : f      =      6.1 : 1.0
+     contains(laid back) = True                m : f      =      5.0 : 1.0
+         contains(pride) = True                f : m      =      5.0 : 1.0
+       contains(anatomi) = True                f : m      =      4.7 : 1.0
+       contains(midwest) = True                f : m      =      4.6 : 1.0
+     contains(love danc) = True                f : m      =      4.5 : 1.0
+     contains(love love) = True                f : m      =      4.4 : 1.0
+      contains(meet new) = True                m : f      =      4.3 : 1.0
+contains(meet new peopl) = True                m : f      =      4.3 : 1.0
+  contains(listen music) = True                f : m      =      4.3 : 1.0
+          contains(nbsp) = True                m : f      =      4.1 : 1.0
+        contains(memoir) = True                f : m      =      3.8 : 1.0
+        contains(volunt) = True                f : m      =      3.8 : 1.0
+          contains(jane) = True                f : m      =      3.7 : 1.0
+  contains(love outdoor) = True                f : m      =      3.7 : 1.0
+          contains(laid) = True                m : f      =      3.6 : 1.0
+     contains(move back) = True                f : m      =      3.4 : 1.0
+       contains(go movi) = True                f : m      =      3.4 : 1.0
+          contains(gear) = True                m : f      =      3.4 : 1.0
+        contains(crimin) = True                f : m      =      3.3 : 1.0
+          contains(ador) = True                f : m      =      3.3 : 1.0
+          contains(grey) = True                f : m      =      3.3 : 1.0
+     contains(love read) = True                f : m      =      3.3 : 1.0
+        contains(strive) = True                m : f      =      3.0 : 1.0
+      contains(optimist) = True                m : f      =      3.0 : 1.0
+   contains(find someon) = True                f : m      =      3.0 : 1.0
+     contains(take care) = True                f : m      =      3.0 : 1.0
+   contains(grad school) = True                f : m      =      3.0 : 1.0
+           contains(ann) = True                f : m      =      3.0 : 1.0
+        contains(farmer) = True                f : m      =      2.9 : 1.0
+   contains(chick flick) = True                f : m      =      2.9 : 1.0
+    contains(music love) = True                f : m      =      2.8 : 1.0
+        contains(archer) = True                m : f      =      2.8 : 1.0
+     contains(love live) = True                f : m      =      2.8 : 1.0
+   contains(dark knight) = True                m : f      =      2.8 : 1.0
+  contains(blade runner) = True                m : f      =      2.7 : 1.0
+   contains(love travel) = True                f : m      =      2.7 : 1.0
+       contains(florenc) = True                f : m      =      2.7 : 1.0
+         contains(chick) = True                f : m      =      2.7 : 1.0
+     contains(book love) = True                f : m      =      2.6 : 1.0
+   contains(love actual) = True                f : m      =      2.6 : 1.0
+     contains(kind food) = True                f : m      =      2.6 : 1.0
+          contains(cycl) = True                m : f      =      2.6 : 1.0
+    contains(kind music) = True                m : f      =      2.6 : 1.0
+       contains(holiday) = True                f : m      =      2.6 : 1.0
+      contains(futurama) = True                m : f      =      2.6 : 1.0
+          contains(adel) = True                f : m      =      2.5 : 1.0
+   contains(love explor) = True                f : m      =      2.5 : 1.0
+         contains(clean) = True                f : m      =      2.5 : 1.0
+      contains(new girl) = True                f : m      =      2.5 : 1.0
+         contains(woman) = True                f : m      =      2.5 : 1.0
+     contains(technolog) = True                m : f      =      2.5 : 1.0
+          contains(tech) = True                m : f      =      2.4 : 1.0
+        contains(knight) = True                m : f      =      2.4 : 1.0
+         contains(abbey) = True                f : m      =      2.4 : 1.0
+        contains(chocol) = True                f : m      =      2.4 : 1.0
+         contains(blade) = True                m : f      =      2.4 : 1.0
+      contains(fun love) = True                m : f      =      2.3 : 1.0
+       contains(contact) = True                m : f      =      2.3 : 1.0
+          contains(dick) = True                m : f      =      2.3 : 1.0
+    contains(south park) = True                m : f      =      2.3 : 1.0
+   contains(hunger game) = True                f : m      =      2.3 : 1.0
+          contains(bone) = True                f : m      =      2.3 : 1.0
+ contains(dragon tattoo) = True                f : m      =      2.3 : 1.0
+        contains(matrix) = True                m : f      =      2.3 : 1.0
+       contains(okcupid) = True                m : f      =      2.3 : 1.0
+          contains(wife) = True                f : m      =      2.3 : 1.0
+     contains(road trip) = True                f : m      =      2.3 : 1.0
+    contains(video game) = True                m : f      =      2.3 : 1.0
+          contains(dune) = True                m : f      =      2.3 : 1.0
+         contains(salsa) = True                f : m      =      2.2 : 1.0
+         contains( game) = True                m : f      =      2.2 : 1.0
+            contains(dj) = True                m : f      =      2.2 : 1.0
+   contains(recent move) = True                f : m      =      2.2 : 1.0
+   contains(one favorit) = True                f : m      =      2.2 : 1.0
+       contains(simpson) = True                m : f      =      2.2 : 1.0
+           contains(bro) = True                m : f      =      2.2 : 1.0
+     contains(new peopl) = True                m : f      =      2.1 : 1.0
+          contains(fave) = True                f : m      =      2.1 : 1.0
+         contains(loath) = True                m : f      =      2.1 : 1.0
+    contains(youtub com) = True                m : f      =      2.1 : 1.0
+        contains(tattoo) = True                f : m      =      2.1 : 1.0
+         contains(circl) = True                m : f      =      2.1 : 1.0
+          contains(girl) = True                f : m      =      2.1 : 1.0
+ contains(friend famili) = True                f : m      =      2.1 : 1.0
+    contains(like peopl) = True                f : m      =      2.1 : 1.0
+      contains(twilight) = True                f : m      =      2.1 : 1.0
+         contains(diari) = True                f : m      =      2.1 : 1.0
+         contains(futur) = True                m : f      =      2.1 : 1.0
+         contains(floyd) = True                m : f      =      2.1 : 1.0
+         contains(tranc) = True                m : f      =      2.1 : 1.0
+         contains(women) = True                f : m      =      2.1 : 1.0
+     contains(law order) = True                f : m      =      2.1 : 1.0
+       contains(sarcasm) = True                f : m      =      2.1 : 1.0
+    contains(pink floyd) = True                m : f      =      2.1 : 1.0
+        contains(boston) = True                m : f      =      2.1 : 1.0
+  contains(foreign film) = True                f : m      =      2.1 : 1.0
+    contains(enthusiasm) = True                m : f      =      2.1 : 1.0
+        contains(orient) = True                m : f      =      2.0 : 1.0
+         contains(seven) = True                m : f      =      2.0 : 1.0
+      contains(love tri) = True                f : m      =      2.0 : 1.0
+          contains(glee) = True                f : m      =      2.0 : 1.0
+        contains(balanc) = True                f : m      =      2.0 : 1.0
+      contains(competit) = True                f : m      =      2.0 : 1.0
+     contains(daft punk) = True                m : f      =      2.0 : 1.0
+     contains(read much) = True                m : f      =      2.0 : 1.0
+         contains(south) = True                m : f      =      2.0 : 1.0
+          contains(daft) = True                m : f      =      2.0 : 1.0
+      contains(daughter) = True                f : m      =      2.0 : 1.0
+        contains(batman) = True                m : f      =      2.0 : 1.0
+      contains(morrison) = True                f : m      =      2.0 : 1.0
+       contains(la vega) = True                m : f      =      2.0 : 1.0
+         contains(ameli) = True                f : m      =      2.0 : 1.0
+         contains(alien) = True                m : f      =      2.0 : 1.0
+          contains(help) = True                f : m      =      2.0 : 1.0
+    contains(nina simon) = True                f : m      =      2.0 : 1.0
+          contains(sing) = True                f : m      =      2.0 : 1.0
+        contains(hunger) = True                f : m      =      2.0 : 1.0
+     contains(eat anyth) = True                m : f      =      2.0 : 1.0
+    contains(east coast) = True                m : f      =      2.0 : 1.0
+         contains(chees) = True                f : m      =      2.0 : 1.0
+          contains(grad) = True                f : m      =      2.0 : 1.0
+   contains(mockingbird) = True                f : m      =      1.9 : 1.0
+      contains(lifestyl) = True                f : m      =      1.9 : 1.0
+        contains(cannot) = True                f : m      =      1.9 : 1.0
+     contains(snowboard) = True                m : f      =      1.9 : 1.0
+       contains(memento) = True                m : f      =      1.9 : 1.0
+         contains(truli) = True                f : m      =      1.9 : 1.0
+          contains(kite) = True                f : m      =      1.9 : 1.0
+         contains(fresh) = True                f : m      =      1.9 : 1.0
+          contains(shoe) = True                f : m      =      1.9 : 1.0
+  contains(show colbert) = True                m : f      =      1.9 : 1.0
+    contains(live music) = True                f : m      =      1.9 : 1.0
+  contains(pulp fiction) = True                m : f      =      1.9 : 1.0
+          contains(curb) = True                m : f      =      1.9 : 1.0
+          contains(nina) = True                f : m      =      1.9 : 1.0
+        contains(sensit) = True                f : m      =      1.9 : 1.0
+         contains(smile) = True                f : m      =      1.9 : 1.0
+   contains(realli love) = True                f : m      =      1.9 : 1.0
+       contains(honesti) = True                f : m      =      1.9 : 1.0
+       contains(easi go) = True                f : m      =      1.9 : 1.0
+ contains(romant comedi) = True                f : m      =      1.9 : 1.0
+contains(learn new thing) = True                f : m      =      1.9 : 1.0
+  contains(love tri new) = True                f : m      =      1.9 : 1.0
+          contains(gone) = True                f : m      =      1.9 : 1.0
+        contains(disney) = True                f : m      =      1.9 : 1.0
+contains(daili show colbert) = True                m : f      =      1.9 : 1.0
+        contains(comput) = True                m : f      =      1.9 : 1.0
+        contains(romant) = True                f : m      =      1.9 : 1.0
+         contains(admit) = True                f : m      =      1.9 : 1.0
+    contains(love music) = True                f : m      =      1.9 : 1.0
+     contains(also love) = True                f : m      =      1.9 : 1.0
+       contains(love go) = True                f : m      =      1.9 : 1.0
+         contains(organ) = True                f : m      =      1.9 : 1.0
+        contains(histor) = True                f : m      =      1.9 : 1.0
+           contains(bed) = True                f : m      =      1.9 : 1.0
+    contains(love watch) = True                f : m      =      1.9 : 1.0
+          contains(evil) = True                m : f      =      1.9 : 1.0
+      contains(star war) = True                m : f      =      1.9 : 1.0
+        contains(integr) = True                m : f      =      1.9 : 1.0
+       contains(realiti) = True                f : m      =      1.9 : 1.0
+          contains(mari) = True                f : m      =      1.9 : 1.0
+     contains(food love) = True                f : m      =      1.9 : 1.0
+        contains(ambiti) = True                f : m      =      1.9 : 1.0
+        contains(soccer) = True                m : f      =      1.8 : 1.0
+    contains(true blood) = True                f : m      =      1.8 : 1.0
+           contains(cri) = True                f : m      =      1.8 : 1.0
+           contains(gym) = True                f : m      =      1.8 : 1.0
+         contains(europ) = True                m : f      =      1.8 : 1.0
+       contains(partner) = True                f : m      =      1.8 : 1.0
+        contains(obsess) = True                f : m      =      1.8 : 1.0
+   contains(best friend) = True                f : m      =      1.8 : 1.0
+     contains(movi love) = True                f : m      =      1.8 : 1.0
+           contains(bbq) = True                m : f      =      1.8 : 1.0
+contains(guilti pleasur) = True                f : m      =      1.8 : 1.0
+     contains(walk dead) = True                m : f      =      1.8 : 1.0
+     contains(break bad) = True                m : f      =      1.8 : 1.0
+          contains(warm) = True                f : m      =      1.8 : 1.0
+         contains(ender) = True                m : f      =      1.8 : 1.0
+        contains(athlet) = True                m : f      =      1.8 : 1.0
+     contains(time like) = True                m : f      =      1.8 : 1.0
+          contains(rain) = True                f : m      =      1.8 : 1.0
+       contains(dubstep) = True                m : f      =      1.8 : 1.0
+        contains(romanc) = True                f : m      =      1.8 : 1.0
+contains(scienc fiction) = True                m : f      =      1.8 : 1.0
+        contains(youtub) = True                m : f      =      1.8 : 1.0
+        contains(brazil) = True                m : f      =      1.8 : 1.0
+          contains(pulp) = True                m : f      =      1.8 : 1.0
+      contains(lebowski) = True                m : f      =      1.8 : 1.0
+  contains(look forward) = True                f : m      =      1.8 : 1.0
+    contains(would love) = True                f : m      =      1.8 : 1.0
+     contains(mile davi) = True                m : f      =      1.8 : 1.0
+          contains(yoga) = True                f : m      =      1.8 : 1.0
+           contains(ami) = True                f : m      =      1.8 : 1.0
+      contains(progress) = True                m : f      =      1.8 : 1.0
+           contains(guy) = True                m : f      =      1.8 : 1.0
+         contains(veggi) = True                f : m      =      1.8 : 1.0
+    contains(philosophi) = True                m : f      =      1.8 : 1.0
+        contains(justic) = True                m : f      =      1.8 : 1.0
+         contains(scari) = True                f : m      =      1.8 : 1.0
+       contains(sarcast) = True                f : m      =      1.8 : 1.0
+          contains(tool) = True                m : f      =      1.8 : 1.0
+       contains(outdoor) = True                f : m      =      1.8 : 1.0
+       contains(mysteri) = True                f : m      =      1.8 : 1.0
+        contains(incept) = True                m : f      =      1.8 : 1.0
+          contains(hell) = True                m : f      =      1.8 : 1.0
+          contains(fuck) = True                m : f      =      1.8 : 1.0
+          contains(cute) = True                f : m      =      1.8 : 1.0
+    contains(famili guy) = True                m : f      =      1.7 : 1.0
+            contains(dc) = True                m : f      =      1.7 : 1.0
+  contains(big lebowski) = True                m : f      =      1.7 : 1.0
+         contains(recip) = True                f : m      =      1.7 : 1.0
+         contains(water) = True                f : m      =      1.7 : 1.0
+         contains(femal) = True                f : m      =      1.7 : 1.0
+        contains(market) = True                f : m      =      1.7 : 1.0
+     contains(time read) = True                m : f      =      1.7 : 1.0
+         contains(notic) = True                m : f      =      1.7 : 1.0
+          contains(vega) = True                m : f      =      1.7 : 1.0
+        contains(jersey) = True                f : m      =      1.7 : 1.0
+            contains(ii) = True                m : f      =      1.7 : 1.0
+        contains(quirki) = True                f : m      =      1.7 : 1.0
+      contains(greatest) = True                m : f      =      1.7 : 1.0
+         contains(board) = True                m : f      =      1.7 : 1.0
+           contains(law) = True                f : m      =      1.7 : 1.0
+         contains(brian) = True                m : f      =      1.7 : 1.0
+       contains(practic) = True                f : m      =      1.7 : 1.0
+       contains(foreign) = True                f : m      =      1.7 : 1.0
+          contains(path) = True                m : f      =      1.7 : 1.0
+      contains(bon iver) = True                f : m      =      1.7 : 1.0
+        contains(galaxi) = True                m : f      =      1.7 : 1.0
+         contains(dirti) = True                f : m      =      1.7 : 1.0
+       contains(tri new) = True                f : m      =      1.7 : 1.0
+  contains(david sedari) = True                f : m      =      1.7 : 1.0
+         contains(witti) = True                f : m      =      1.7 : 1.0
+          contains(iver) = True                f : m      =      1.7 : 1.0
+        contains(monkey) = True                m : f      =      1.7 : 1.0
+        contains(garden) = True                f : m      =      1.7 : 1.0
+          contains(hook) = True                f : m      =      1.7 : 1.0
+         contains(space) = True                m : f      =      1.7 : 1.0
+         contains(dress) = True                f : m      =      1.7 : 1.0
+     contains(breakfast) = True                f : m      =      1.7 : 1.0
+      contains(electron) = True                m : f      =      1.7 : 1.0
+         contains(india) = True                f : m      =      1.7 : 1.0
+        contains(africa) = True                f : m      =      1.7 : 1.0
+           contains(bon) = True                f : m      =      1.7 : 1.0
+          contains(trek) = True                m : f      =      1.7 : 1.0
+        contains(vampir) = True                f : m      =      1.7 : 1.0
+        contains(tomato) = True                f : m      =      1.7 : 1.0
+        contains(yorker) = True                f : m      =      1.7 : 1.0
+    contains(new yorker) = True                f : m      =      1.7 : 1.0
+  contains(absolut love) = True                f : m      =      1.7 : 1.0
+         contains(fruit) = True                f : m      =      1.7 : 1.0
+        contains(hawaii) = True                m : f      =      1.7 : 1.0
+       contains(pleasur) = True                f : m      =      1.7 : 1.0
+        contains(hilari) = True                f : m      =      1.7 : 1.0
+       contains(mumford) = True                f : m      =      1.7 : 1.0
+          contains(dive) = True                f : m      =      1.7 : 1.0
+    contains(fight club) = True                m : f      =      1.7 : 1.0
+     contains(life love) = True                f : m      =      1.7 : 1.0
+          contains(let ) = True                f : m      =      1.7 : 1.0
+     contains(love food) = True                f : m      =      1.7 : 1.0
+     contains(spend lot) = True                f : m      =      1.7 : 1.0
+         contains(comic) = True                m : f      =      1.7 : 1.0
+       contains(healthi) = True                f : m      =      1.7 : 1.0
+          contains(danc) = True                f : m      =      1.7 : 1.0
+         contains(color) = True                f : m      =      1.7 : 1.0
+         contains(video) = True                m : f      =      1.7 : 1.0
+           contains(war) = True                m : f      =      1.7 : 1.0
+          contains(oliv) = True                f : m      =      1.7 : 1.0
+     contains(ice cream) = True                f : m      =      1.7 : 1.0
+     contains(star trek) = True                m : f      =      1.7 : 1.0
+         contains(sweet) = True                f : m      =      1.7 : 1.0
+          contains(bach) = True                m : f      =      1.7 : 1.0
+       contains(respons) = True                m : f      =      1.6 : 1.0
+         contains(silli) = True                f : m      =      1.6 : 1.0
+      contains(vonnegut) = True                m : f      =      1.6 : 1.0
+          contains(loud) = True                f : m      =      1.6 : 1.0
+           contains(dad) = True                m : f      =      1.6 : 1.0
+       contains(godfath) = True                m : f      =      1.6 : 1.0
+           contains(gun) = True                m : f      =      1.6 : 1.0
+          contains(true) = True                f : m      =      1.6 : 1.0
+ contains(tri new thing) = True                f : m      =      1.6 : 1.0
+        contains(physic) = True                m : f      =      1.6 : 1.0
+   contains(thai indian) = True                f : m      =      1.6 : 1.0
+           contains(dan) = True                m : f      =      1.6 : 1.0
+      contains(seinfeld) = True                m : f      =      1.6 : 1.0
+  contains(philadelphia) = True                m : f      =      1.6 : 1.0
+       contains(concert) = True                f : m      =      1.6 : 1.0
+     contains(new thing) = True                f : m      =      1.6 : 1.0
+          contains(lack) = True                f : m      =      1.6 : 1.0
+         contains(terri) = True                m : f      =      1.6 : 1.0
+            contains(vs) = True                m : f      =      1.6 : 1.0
+       contains(fashion) = True                f : m      =      1.6 : 1.0
+          contains(fear) = True                m : f      =      1.6 : 1.0
+       contains(avocado) = True                f : m      =      1.6 : 1.0
+          contains(hero) = True                m : f      =      1.6 : 1.0
+         contains(foodi) = True                f : m      =      1.6 : 1.0
+          contains(rush) = True                m : f      =      1.6 : 1.0
+      contains(backpack) = True                f : m      =      1.6 : 1.0
+      contains(six feet) = True                f : m      =      1.6 : 1.0
+       contains(forward) = True                f : m      =      1.6 : 1.0
+     contains(bluegrass) = True                f : m      =      1.6 : 1.0
+      contains(enjoy go) = True                f : m      =      1.6 : 1.0
+         contains(break) = True                m : f      =      1.6 : 1.0
+         contains(leagu) = True                m : f      =      1.6 : 1.0
+        contains(hunter) = True                m : f      =      1.6 : 1.0
+      contains(religion) = True                m : f      =      1.6 : 1.0
+        contains(electr) = True                m : f      =      1.6 : 1.0
+          contains(ipod) = True                f : m      =      1.6 : 1.0
+          contains(judg) = True                f : m      =      1.6 : 1.0
+        contains(cheesi) = True                f : m      =      1.6 : 1.0
+           contains(cup) = True                f : m      =      1.6 : 1.0
+      contains(internet) = True                m : f      =      1.6 : 1.0
+          contains(tire) = True                f : m      =      1.6 : 1.0
+        contains(guilti) = True                f : m      =      1.6 : 1.0
+         contains(salad) = True                f : m      =      1.6 : 1.0
+          contains(valu) = True                m : f      =      1.6 : 1.0
+    contains(fitzgerald) = True                f : m      =      1.6 : 1.0
+         contains(simon) = True                f : m      =      1.6 : 1.0
+          contains(awar) = True                f : m      =      1.6 : 1.0
+        contains(secret) = True                f : m      =      1.6 : 1.0
+         contains(visit) = True                f : m      =      1.6 : 1.0
+         contains(grace) = True                f : m      =      1.6 : 1.0
+         contains(bread) = True                f : m      =      1.6 : 1.0
+          contains(forc) = True                m : f      =      1.6 : 1.0
+           contains(sex) = True                f : m      =      1.6 : 1.0
+          contains(guid) = True                m : f      =      1.6 : 1.0
+          contains(coen) = True                m : f      =      1.6 : 1.0
+       contains(absolut) = True                f : m      =      1.6 : 1.0
+          contains(bibl) = True                f : m      =      1.6 : 1.0
+         contains(grown) = True                f : m      =      1.6 : 1.0
+         contains(life ) = True                m : f      =      1.6 : 1.0
+         contains(liber) = True                m : f      =      1.6 : 1.0
+     contains(love cook) = True                f : m      =      1.6 : 1.0
+          contains(kany) = True                m : f      =      1.6 : 1.0
+         contains(third) = True                m : f      =      1.6 : 1.0
+        contains(python) = True                m : f      =      1.6 : 1.0
+       contains(pandora) = True                f : m      =      1.6 : 1.0
+        contains(strang) = True                m : f      =      1.6 : 1.0
+          contains(feet) = True                f : m      =      1.6 : 1.0
+          contains(tree) = True                f : m      =      1.6 : 1.0
+        contains(effect) = True                m : f      =      1.6 : 1.0
+         contains(nerdi) = True                m : f      =      1.6 : 1.0
+         contains(fight) = True                m : f      =      1.6 : 1.0
+         contains(charl) = True                m : f      =      1.6 : 1.0
+          contains(davi) = True                m : f      =      1.6 : 1.0
+          contains(lose) = True                f : m      =      1.6 : 1.0
+         contains(exist) = True                m : f      =      1.6 : 1.0
+         contains(tenni) = True                f : m      =      1.6 : 1.0
+         contains(sunni) = True                m : f      =      1.6 : 1.0
+             contains(p) = True                m : f      =      1.6 : 1.0
+          contains(appl) = True                f : m      =      1.5 : 1.0
+        contains(ground) = True                m : f      =      1.5 : 1.0
+           contains(shi) = True                m : f      =      1.5 : 1.0
+        contains(commit) = True                f : m      =      1.5 : 1.0
+     contains(difficult) = True                f : m      =      1.5 : 1.0
+        contains(number) = True                m : f      =      1.5 : 1.0
+       contains(station) = True                f : m      =      1.5 : 1.0
+          contains(upon) = True                f : m      =      1.5 : 1.0
+        contains(sedari) = True                f : m      =      1.5 : 1.0
+             contains(k) = True                m : f      =      1.5 : 1.0
+     contains(long term) = True                f : m      =      1.5 : 1.0
+     contains(yeah yeah) = True                f : m      =      1.5 : 1.0
+         contains(glass) = True                f : m      =      1.5 : 1.0
+          contains(mile) = True                m : f      =      1.5 : 1.0
+contains(tri new restaur) = True                f : m      =      1.5 : 1.0
+   contains(new restaur) = True                f : m      =      1.5 : 1.0
+         contains(sport) = True                m : f      =      1.5 : 1.0
+          contains(swim) = True                m : f      =      1.5 : 1.0
+          contains(pari) = True                f : m      =      1.5 : 1.0
+        contains(flavor) = True                f : m      =      1.5 : 1.0
+         contains(motiv) = True                m : f      =      1.5 : 1.0
+   contains(alway sunni) = True                m : f      =      1.5 : 1.0
+          contains(dumb) = True                m : f      =      1.5 : 1.0
+           contains(fli) = True                m : f      =      1.5 : 1.0
+        contains(edward) = True                f : m      =      1.5 : 1.0
+     contains(like make) = True                f : m      =      1.5 : 1.0
+         contains(crash) = True                m : f      =      1.5 : 1.0
+         contains(lover) = True                f : m      =      1.5 : 1.0
+         contains(saint) = True                m : f      =      1.5 : 1.0
+          contains(wine) = True                f : m      =      1.5 : 1.0
+ contains(modern famili) = True                f : m      =      1.5 : 1.0
+           contains(bad) = True                m : f      =      1.5 : 1.0
+         contains(settl) = True                m : f      =      1.5 : 1.0
+      contains(food tri) = True                f : m      =      1.5 : 1.0
+           contains(sad) = True                f : m      =      1.5 : 1.0
+  contains(monti python) = True                m : f      =      1.5 : 1.0
+          contains(ring) = True                m : f      =      1.5 : 1.0
+         contains(local) = True                f : m      =      1.5 : 1.0
+        contains(throne) = True                m : f      =      1.5 : 1.0
+          contains(love) = True                f : m      =      1.5 : 1.0
+        contains(ethnic) = True                f : m      =      1.5 : 1.0
+         contains(studi) = True                f : m      =      1.5 : 1.0
+          contains(site) = True                m : f      =      1.5 : 1.0
+          contains(burn) = True                m : f      =      1.5 : 1.0
+        contains(avatar) = True                m : f      =      1.5 : 1.0
+        contains(machin) = True                f : m      =      1.5 : 1.0
+          contains(wire) = True                m : f      =      1.5 : 1.0
+        contains(decent) = True                m : f      =      1.5 : 1.0
+           contains(fav) = True                f : m      =      1.5 : 1.0
+         contains(china) = True                m : f      =      1.5 : 1.0
+        contains(festiv) = True                f : m      =      1.5 : 1.0
+        contains(across) = True                f : m      =      1.5 : 1.0
+          contains(oldi) = True                f : m      =      1.5 : 1.0
+          contains(lead) = True                f : m      =      1.5 : 1.0
+         contains(smash) = True                m : f      =      1.5 : 1.0
+          contains(avid) = True                f : m      =      1.5 : 1.0
+         contains(vacat) = True                f : m      =      1.5 : 1.0
+        contains(whenev) = True                m : f      =      1.5 : 1.0
+         contains(georg) = True                m : f      =      1.5 : 1.0
+  contains(chili pepper) = True                m : f      =      1.5 : 1.0
+       contains(similar) = True                m : f      =      1.5 : 1.0
+           contains(com) = True                m : f      =      1.5 : 1.0
+         contains(latin) = True                f : m      =      1.5 : 1.0
+           contains(mom) = True                f : m      =      1.5 : 1.0
+         contains(flick) = True                f : m      =      1.5 : 1.0
+         contains(laugh) = True                f : m      =      1.5 : 1.0
+          contains(star) = True                m : f      =      1.5 : 1.0
+            contains(dr) = True                m : f      =      1.5 : 1.0
+          contains(dine) = True                f : m      =      1.5 : 1.0
+          contains(larg) = True                m : f      =      1.5 : 1.0
+        contains(robert) = True                m : f      =      1.5 : 1.0
+         contains(chili) = True                m : f      =      1.5 : 1.0
+          contains(dude) = True                m : f      =      1.5 : 1.0
+         contains(monti) = True                m : f      =      1.5 : 1.0
+        contains(amount) = True                m : f      =      1.5 : 1.0
+     contains(galactica) = True                m : f      =      1.5 : 1.0
+        contains(troubl) = True                m : f      =      1.5 : 1.0
+          contains(post) = True                m : f      =      1.5 : 1.0
+          contains(hunt) = True                m : f      =      1.5 : 1.0
+       contains(cartoon) = True                m : f      =      1.5 : 1.0
+           contains(jim) = True                m : f      =      1.5 : 1.0
+          contains(bake) = True                f : m      =      1.5 : 1.0
+        contains(scienc) = True                m : f      =      1.5 : 1.0
+       contains(project) = True                f : m      =      1.5 : 1.0
+    contains(board game) = True                f : m      =      1.5 : 1.0
+         contains(front) = True                m : f      =      1.5 : 1.0
+         contains(choos) = True                f : m      =      1.5 : 1.0
+          contains(cool) = True                m : f      =      1.5 : 1.0
+      contains(independ) = True                f : m      =      1.5 : 1.0
+           contains(npr) = True                f : m      =      1.5 : 1.0
+         contains(queer) = True                f : m      =      1.5 : 1.0
+contains(battlestar galactica) = True                m : f      =      1.5 : 1.0
+contains(favorit author) = True                f : m      =      1.5 : 1.0
+     contains(long time) = True                f : m      =      1.5 : 1.0
+      contains(east bay) = True                f : m      =      1.5 : 1.0
+         contains(freak) = True                f : m      =      1.5 : 1.0
+       contains(present) = True                m : f      =      1.5 : 1.0
+           contains(pet) = True                m : f      =      1.5 : 1.0
+      contains(zeppelin) = True                m : f      =      1.5 : 1.0
+          contains(chef) = True                f : m      =      1.5 : 1.0
+         contains(metal) = True                m : f      =      1.5 : 1.0
+      contains(opportun) = True                f : m      =      1.5 : 1.0
+          contains(kurt) = True                m : f      =      1.5 : 1.0
+       contains(attract) = True                m : f      =      1.5 : 1.0
+        contains(deepli) = True                f : m      =      1.5 : 1.0
+     contains(experienc) = True                f : m      =      1.5 : 1.0
+           contains(sci) = True                m : f      =      1.5 : 1.0
+         contains(urban) = True                f : m      =      1.5 : 1.0
+  contains(led zeppelin) = True                m : f      =      1.5 : 1.0
+           contains(fox) = True                f : m      =      1.5 : 1.0
+          contains(home) = True                f : m      =      1.5 : 1.0
+      contains(thriller) = True                f : m      =      1.5 : 1.0
+        contains(discov) = True                f : m      =      1.5 : 1.0
+        contains(search) = True                m : f      =      1.5 : 1.0
+         contains(cream) = True                f : m      =      1.5 : 1.0
+       contains(program) = True                m : f      =      1.5 : 1.0
+         contains(carri) = True                f : m      =      1.5 : 1.0
+        contains(poetri) = True                f : m      =      1.5 : 1.0
+          contains(free) = True                f : m      =      1.5 : 1.0
+         contains(bride) = True                f : m      =      1.5 : 1.0
+           contains(ten) = True                m : f      =      1.5 : 1.0
+      contains(surround) = True                f : m      =      1.5 : 1.0
+        contains(delici) = True                f : m      =      1.5 : 1.0
+        contains(martin) = True                m : f      =      1.5 : 1.0
+      contains(straight) = True                m : f      =      1.5 : 1.0
+          contains(punk) = True                m : f      =      1.4 : 1.0
+          contains(lord) = True                m : f      =      1.4 : 1.0
+       contains(discuss) = True                f : m      =      1.4 : 1.0
+     contains(love life) = True                m : f      =      1.4 : 1.0
+        contains(player) = True                m : f      =      1.4 : 1.0
+          contains(alic) = True                f : m      =      1.4 : 1.0
+            contains(fi) = True                m : f      =      1.4 : 1.0
+        contains(sci fi) = True                m : f      =      1.4 : 1.0
+     contains(ethiopian) = True                f : m      =      1.4 : 1.0
+        contains(memori) = True                f : m      =      1.4 : 1.0
+          contains(miss) = True                f : m      =      1.4 : 1.0
+       contains(appreci) = True                f : m      =      1.4 : 1.0
+         contains(north) = True                m : f      =      1.4 : 1.0
+        contains(dragon) = True                f : m      =      1.4 : 1.0
+          contains(case) = True                f : m      =      1.4 : 1.0
+       contains(element) = True                m : f      =      1.4 : 1.0
+         contains(opera) = True                f : m      =      1.4 : 1.0
+         contains(ideal) = True                m : f      =      1.4 : 1.0
+         contains(cooki) = True                f : m      =      1.4 : 1.0
+         contains(older) = True                m : f      =      1.4 : 1.0
+          contains(rais) = True                f : m      =      1.4 : 1.0
+        contains(museum) = True                f : m      =      1.4 : 1.0
+
